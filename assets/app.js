@@ -103,7 +103,12 @@
       note = '<p class="hit-note"><span lang="ja">' + esc(it.noteJa) + '</span><span lang="en">' + esc(it.noteEn) + '</span></p>';
     }
     var more = it.see ? ' <a class="more" href="' + it.see + '"><span lang="ja">詳しく見る</span><span lang="en">More details</span></a>' : '';
-    return '<li class="hit c-' + main + '"><div class="hit-top"><span class="hit-name"><span lang="ja">' + esc(it.ja) +
+    // アイコン（tools/illust/icons → assets/icons.js）。ない品目は区分の色の丸
+    var icoName = window.ICON_OF && window.ICON_OF[it.id];
+    var ico = (icoName && window.ICONS && window.ICONS[icoName])
+      ? '<span class="hit-ico" aria-hidden="true">' + window.ICONS[icoName] + '</span>'
+      : '<span class="hit-ico hit-dot" aria-hidden="true"></span>';
+    return '<li class="hit c-' + main + '"><div class="hit-top">' + ico + '<span class="hit-name"><span lang="ja">' + esc(it.ja) +
       '</span><span lang="en">' + esc(it.en) + '</span></span><span class="hit-alt jp" lang="ja">' + esc(it.ja) +
       '</span></div><div class="hit-top" style="margin-top:6px">' + tags + '</div>' + note +
       (more ? '<p class="hit-note">' + more + '</p>' : '') + '</li>';

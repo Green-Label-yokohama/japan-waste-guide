@@ -33,7 +33,7 @@ body{
   font-family:var(--font-body);font-size:17px;line-height:1.85;
   overflow-wrap:anywhere;
 }
-img,svg{max-width:100%}
+img,svg{max-width:100%;height:auto}
 a{color:inherit}
 a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{
   outline:3px solid var(--focus);outline-offset:2px;border-radius:4px;
@@ -337,11 +337,15 @@ ol.steps > li b{display:block;font-family:var(--font-head);font-size:1.08rem}
 }
 
 /* ---------- ホーム：ヒーロー ---------- */
-.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:24px;align-items:center}
-.hero-grid > .illus{width:100%;max-width:300px}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:24px;align-items:center}
+.hero-grid > .illus{width:100%;max-width:260px}
+.search input[type="search"]{width:100%;min-width:0}
+.hero-text{min-width:0}
 @media (max-width:820px){
-  .hero-grid{grid-template-columns:1fr}
-  .hero-grid > .illus{order:-1;max-width:170px;margin:-10px 0 -6px auto}
+  /* minmax(0,1fr)：列が中身（検索の入力欄）より狭くなれるようにする。
+     1fr のままだと、Safari（WebKit）で入力欄の初期幅（約400px）に引っぱられて、はみ出す */
+  .hero-grid{grid-template-columns:minmax(0,1fr);gap:8px}
+  .hero-grid > .illus{max-width:140px;margin:0 0 0 auto}
 }
 
 /* ---------- ホーム：入口 ---------- */
@@ -501,4 +505,27 @@ h2.part{font-size:1.9rem;margin-top:56px;padding-top:18px;border-top:3px solid v
   body.page-chart .chart tbody th,body.page-chart .chart tbody td{padding:4px 6px}
   body.page-chart .page-head-in{padding-bottom:2px}
   body.page-chart .print-note{display:inline}
+}
+
+/* ==========================================================
+   第3版：絵（tools/illust）
+   ========================================================== */
+/* 手順の絵（番号つきのコマ） */
+.step-pics{list-style:none;margin:14px 0 10px;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:10px;max-width:640px}
+.step-pics li{margin:0;min-width:0}
+.step-pics svg{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line);background:#fff}
+.howto + .step-pics{margin-top:-4px}
+
+/* 検索結果のアイコン（区分の色で塗る） */
+.hit > .hit-top:first-child{display:grid;grid-template-columns:38px minmax(0,1fr);column-gap:8px;align-items:center}
+.hit > .hit-top:first-child > .hit-ico{grid-row:1 / span 2}
+.hit > .hit-top:first-child > .hit-alt{grid-column:2}
+.hit-top + .hit-top{padding-left:46px}
+.hit-ico{flex:none;width:38px;height:38px;color:var(--c,var(--info));display:grid;place-items:center;align-self:flex-start}
+.hit-ico svg{width:38px;height:38px}
+.hit-dot::before{content:"";width:16px;height:16px;border-radius:50%;background:var(--c,var(--info))}
+.hit .hit-name{min-width:0}
+.hit .hit-note{padding-left:46px}
+@media (max-width:420px){
+  .hit-top + .hit-top,.hit .hit-note{padding-left:0}
 }
