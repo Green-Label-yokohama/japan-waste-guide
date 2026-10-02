@@ -529,3 +529,27 @@ h2.part{font-size:1.9rem;margin-top:56px;padding-top:18px;border-top:3px solid v
 @media (max-width:420px){
   .hit-top + .hit-top,.hit .hit-note{padding-left:0}
 }
+
+/* ==========================================================
+   第4版：検索の「冊子の本文からの答え」（辞典の結果より先に出す）
+   ========================================================== */
+.answer{
+  background:#fff;border:2px solid var(--c,var(--info));border-left-width:12px;border-radius:12px;
+  padding:14px 18px 12px;margin-bottom:12px;max-width:860px;
+}
+.answer-top{display:grid;grid-template-columns:38px minmax(0,1fr);column-gap:10px;align-items:center}
+.answer-kicker{margin:0;font-size:.82rem;font-weight:700;color:var(--muted);max-width:none}
+.answer-title{margin:0;font-family:var(--font-head);font-weight:900;font-size:1.2rem;line-height:1.4;max-width:none}
+.answer-title .hit-alt{display:none;font-family:var(--font-body);font-weight:400;font-size:.85rem;margin-left:6px}
+html[data-lang="en"] body .answer-title .hit-alt[lang="ja"]{display:inline !important}
+.answer-body{margin:10px 0 8px;font-size:1rem;line-height:1.75;max-width:none}
+.answer-foot{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin:0;font-size:.9rem;max-width:none}
+.answer-src{color:var(--muted)}
+.answer-foot .more{font-weight:700}
+.answer-only{border-style:dashed}
+@media (max-width:420px){
+  .answer{padding:12px 14px 10px;border-left-width:8px}
+}
+@media (prefers-reduced-motion:no-preference){
+  .answer{animation:pop .18s ease-out}
+}

@@ -136,14 +136,68 @@
     return out;
   }
 
+  /* ---------- 冊子の本文からの答え（data/answers.js） ----------
+     辞典（P27〜34）に無いが、冊子の本文にある品目。辞典の結果より先に出す。
+     空白・ハイフン・全角半角・カタカナひらがな・大文字小文字の違いは無視して比べる。
+     出すのは「言葉と完全に同じ」「4文字以上で言葉の頭と同じ」「4文字以上の言葉が検索語に含まれる」ときだけ。 */
+  var answers = window.ANSWERS || [];
+  function compact(s) { return norm(s).replace(/[\s\-‐－・･_]/g, ''); }
+  answers.forEach(function (a) { a._keys = a.keys.map(compact); });
+
+  function findAnswers(q) {
+    var c = compact(q);
+    if (!c) return [];
+    var out = [];
+    answers.forEach(function (a) {
+      var best = null;
+      a._keys.forEach(function (k) {
+        var s = null;
+        if (c === k) s = 0;
+        else if (c.length >= 4 && k.indexOf(c) === 0) s = 1;
+        else if (k.length >= 4 && c.indexOf(k) > -1) s = 2 - k.length / 1000;
+        if (s !== null && (best === null || s < best)) best = s;
+      });
+      if (best !== null) out.push({ a: a, s: best });
+    });
+    out.sort(function (x, y) { return x.s - y.s; });
+    return out.slice(0, 2).map(function (r) { return r.a; });
+  }
+
+  function answerHtml(a) {
+    var k = CATS[a.cat];
+    var ico = (a.icon && window.ICONS && window.ICONS[a.icon])
+      ? '<span class="hit-ico" aria-hidden="true">' + window.ICONS[a.icon] + '</span>'
+      : '<span class="hit-ico hit-dot" aria-hidden="true"></span>';
+    var pj = a.pages.join('、'), pe = a.pages.map(function (p) { return p.replace('P', ''); }).join(', ');
+    return '<li class="answer c-' + a.cat + '" data-answer="' + esc(a.id) + '"><div class="answer-top">' + ico + '<div>' +
+      '<p class="answer-kicker"><span lang="ja">冊子の本文から</span><span lang="en">From the City booklet</span></p>' +
+      '<p class="answer-title"><span lang="ja">' + esc(a.titleJa) + '</span><span lang="en">' + esc(a.titleEn) + '</span>' +
+      '<span class="hit-alt jp" lang="ja">' + esc(a.titleJa) + '</span></p></div></div>' +
+      '<p class="answer-body"><span lang="ja">' + esc(a.answerJa) + '</span><span lang="en">' + esc(a.answerEn) + '</span></p>' +
+      '<p class="answer-foot"><a class="tag c-' + a.cat + '" href="' + k.page + '"><span lang="ja">' + esc(k.ja) +
+      '</span><span lang="en">' + esc(k.en) + '</span></a> <span class="answer-src"><span lang="ja">出典：冊子 ' + pj +
+      '</span><span lang="en">Source: booklet p' + (a.pages.length > 1 ? 'p' : '') + '. ' + pe + '</span></span> ' +
+      '<a class="more" href="' + a.link + '"><span lang="ja">くわしく見る：' + esc(a.linkJa) + '</span><span lang="en">More: ' +
+      esc(a.linkEn) + '</span></a></p></li>';
+  }
+
   function render() {
     var q = input.value;
     var res = search(q);
+    var ans = norm(q) ? findAnswers(q) : [];
+    var ansHtml = ans.map(answerHtml).join('');
     var hasQuery = norm(q) !== '' || activeCat !== '';
     if (!hasQuery && limit) {
       list.innerHTML = ''; if (countEl) countEl.textContent = ''; if (moreLink) moreLink.hidden = true; return;
     }
     var shown = limit ? res.slice(0, limit) : res;
+    if (!res.length && ans.length) {
+      list.innerHTML = ansHtml + '<li class="empty answer-only"><p lang="ja">この品目は、冊子の辞典（P27〜34）にはありません。上の答えは、冊子の本文からです。</p>' +
+        '<p lang="en">This item is not in the booklet&rsquo;s sorting dictionary (pp. 27&ndash;34). The answer above is from the main text of the booklet.</p></li>';
+      if (countEl) countEl.innerHTML = '<span lang="ja">答え' + ans.length + '件</span><span lang="en">' + ans.length + ' answer' + (ans.length === 1 ? '' : 's') + '</span>';
+      if (moreLink) moreLink.hidden = true;
+      return;
+    }
     if (!res.length) {
       list.innerHTML = '<li class="empty"><p lang="ja">見つかりませんでした。別のことば（例：「かさ」「電池」）で探すか、お住まいの区の資源循環局事務所に電話で確認してください。<a href="contact.html">連絡先を見る</a></p>' +
         '<p lang="en">No match found. Try another word (for example, "umbrella" or "battery"), or call your ward\'s Collection Office. <a href="contact.html">See contact numbers</a></p></li>';
@@ -151,10 +205,11 @@
       if (moreLink) moreLink.hidden = true;
       return;
     }
-    list.innerHTML = shown.map(function (r) { return hitHtml(r.it); }).join('');
+    list.innerHTML = ansHtml + shown.map(function (r) { return hitHtml(r.it); }).join('');
     if (countEl) {
-      countEl.innerHTML = '<span lang="ja">' + res.length + '件' + (limit && res.length > shown.length ? '（先頭の' + shown.length + '件を表示）' : '') +
-        '</span><span lang="en">' + res.length + ' item' + (res.length === 1 ? '' : 's') +
+      countEl.innerHTML = '<span lang="ja">' + (ans.length ? '答え' + ans.length + '件、辞典' : '') + res.length + '件' + (limit && res.length > shown.length ? '（先頭の' + shown.length + '件を表示）' : '') +
+        '</span><span lang="en">' + (ans.length ? ans.length + ' answer' + (ans.length === 1 ? '' : 's') + ', ' : '') +
+        res.length + (ans.length ? ' dictionary' : '') + ' item' + (res.length === 1 ? '' : 's') +
         (limit && res.length > shown.length ? ' (showing the first ' + shown.length + ')' : '') + '</span>';
     }
     if (moreLink) {
