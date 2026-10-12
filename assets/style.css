@@ -11,7 +11,7 @@
   --line:#D5DAE6;
   --focus:#1766B3;
 
-  /* ごみの区分の色（横浜市の冊子の色分けに合わせています） */
+  /* ごみの区分の色（横浜市の案内の色分けをもとに、読みやすい濃さにしています） */
   --plastic:#1766B3;   --on-plastic:#fff;
   --cans:#007A52;      --on-cans:#fff;
   --paperc:#F0932B;    --on-paperc:#1C2250;
@@ -322,6 +322,11 @@ ol.steps > li b{display:block;font-family:var(--font-head);font-size:1.08rem}
 }
 .menu a[aria-current="page"]{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:4px}
 .brand{font-size:1.02rem}
+/* サイト名（第5版 B案）：太字の主タイトル＋その下に小さく地名。スマホは画面幅に合わせて大きさを変える */
+.brand{line-height:1.15}
+.brand .b-main{display:block;font-size:clamp(1.3rem,6.2vw,1.65rem);font-weight:900;letter-spacing:.01em}
+html[data-lang="en"] .brand .b-main{font-size:clamp(1.15rem,5.6vw,1.5rem)}
+.brand .b-sub{display:block;font-family:var(--font-body);font-weight:700;font-size:.95rem;color:var(--muted);margin-top:4px;letter-spacing:.06em}
 
 /* ---------- イラスト ---------- */
 .illus{flex:none;line-height:0}
@@ -531,7 +536,7 @@ h2.part{font-size:1.9rem;margin-top:56px;padding-top:18px;border-top:3px solid v
 }
 
 /* ==========================================================
-   第4版：検索の「冊子の本文からの答え」（辞典の結果より先に出す）
+   第4版：検索の「よくある質問への答え」（辞典の結果より先に出す）
    ========================================================== */
 .answer{
   background:#fff;border:2px solid var(--c,var(--info));border-left-width:12px;border-radius:12px;

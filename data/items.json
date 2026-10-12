@@ -59,7 +59,7 @@
    "cans"
   ],
   "small": false,
-  "noteJa": "飲・食料品用以外のもの小さな金属類へ。ふた（外せるもの）は小さな金属類へ。",
+  "noteJa": "飲・食料品用以外のものは小さな金属類へ。ふた（外せるもの）は小さな金属類へ。",
   "noteEn": "Aluminum cans that did not hold drink or food go to Small Metal Items. So do lids that come off.",
   "see": null,
   "page": 27
@@ -151,7 +151,7 @@
   ],
   "small": false,
   "noteJa": "市では収集できません。",
-  "noteEn": "The city does not collect this. It falls under the Home Appliance Recycling Law.",
+  "noteEn": "The City does not collect this.",
   "see": "not-collected.html",
   "page": 27
  },
@@ -268,7 +268,7 @@
   ],
   "small": false,
   "noteJa": "市では収集できません。",
-  "noteEn": "The city does not collect this. It falls under the Home Appliance Recycling Law.",
+  "noteEn": "The City does not collect this.",
   "see": "not-collected.html",
   "page": 27
  },
@@ -333,7 +333,7 @@
   ],
   "small": false,
   "noteJa": "販売店へ相談。",
-  "noteEn": "The city does not collect this. Ask a dealer.",
+  "noteEn": "The City does not collect this. Ask a dealer.",
   "see": "not-collected.html",
   "page": 27
  },
@@ -437,7 +437,7 @@
   ],
   "small": false,
   "noteJa": "折りたたんで50cm未満になる場合は燃やすごみへ。",
-  "noteEn": "Fold it. If it comes to under 50 cm, put it in Burnable Garbage.",
+  "noteEn": "If it is under 50 cm when folded, put it out as Burnable Garbage.",
   "see": null,
   "page": 28
  },
@@ -501,7 +501,7 @@
    "nonburnable"
   ],
   "small": false,
-  "noteJa": "新聞紙等に包み、品名を表示をする。50cm以上のものは粗大ごみへ。",
+  "noteJa": "新聞紙等に包み、品名を表示する。50cm以上のものは粗大ごみへ。",
   "noteEn": "Wrap in newspaper and write the item name on it. Items 50 cm or longer are Oversized Garbage.",
   "see": null,
   "page": 28
@@ -528,7 +528,7 @@
   ],
   "small": false,
   "noteJa": "骨組みと布部分に分け、布やビニールは燃やすごみへ。持ち手はつけたまま出すことができます。（50cm以上でも可。ただしレジャー用パラソルは粗大ごみへ。）",
-  "noteEn": "Separate the frame from the fabric. Fabric and vinyl go to Burnable Garbage. You can leave the handle on. Fine even if 50 cm or longer. Leisure parasols are Oversized Garbage.",
+  "noteEn": "Separate the frame from the fabric. Fabric and vinyl go to Burnable Garbage. You can leave the handle on. This is OK even if it is 50 cm or longer. Leisure parasols are Oversized Garbage.",
   "see": null,
   "page": 28
  },
@@ -696,7 +696,7 @@
    "nonburnable"
   ],
   "small": false,
-  "noteJa": "新聞紙等に包み、品名を表示する。50㎝以上のものは粗大ごみへ。",
+  "noteJa": "新聞紙等に包み、品名を表示する。50cm以上のものは粗大ごみへ。",
   "noteEn": "Wrap in newspaper and write the item name on it. Items 50 cm or longer are Oversized Garbage.",
   "see": null,
   "page": 28
@@ -814,7 +814,7 @@
   ],
   "small": false,
   "noteJa": "衣類乾燥機は「市では収集できないごみ」を参照。",
-  "noteEn": "For clothes dryers, the city does not collect them. They fall under the Home Appliance Recycling Law.",
+  "noteEn": "For clothes dryers, see “Items the City does not collect.”",
   "see": "not-collected.html",
   "page": 28
  },
@@ -1204,7 +1204,7 @@
   ],
   "small": false,
   "noteJa": "照明器具から取り外し、割れないように購入時の箱などに入れて品名を表示する。50cm以上でも可。LED（プラスチック製）は燃やすごみへ。",
-  "noteEn": "Remove it from the fixture. Put it in its original box or similar so it won't break, and write the item name on it. Fine even if 50 cm or longer. LED (plastic) ones go to Burnable Garbage.",
+  "noteEn": "Remove it from the fixture. Put it in its original box or similar so it won't break, and write the item name on it. This is OK even if it is 50 cm or longer. LED (plastic) ones go to Burnable Garbage.",
   "see": null,
   "page": 29
  },
@@ -1217,7 +1217,7 @@
   ],
   "small": true,
   "noteJa": "販売店回収を優先。バッテリーは抜く。",
-  "noteEn": "Take it to a store collection point first. Remove the battery.",
+  "noteEn": "If possible, return it to a store that collects phones. Remove the battery.",
   "see": null,
   "page": 29
  },
@@ -1255,7 +1255,7 @@
    "plastic"
   ],
   "small": false,
-  "noteJa": "中身を使い切って",
+  "noteJa": "中身を使い切って。",
   "noteEn": "Use up the contents first.",
   "see": null,
   "page": 29
@@ -1399,7 +1399,7 @@
   ],
   "small": false,
   "noteJa": "「ごみです」「廃棄します」等を明示。50cm以上のものは粗大ごみへ。金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみへ。",
-  "noteEn": "Mark it \"this is trash\" (ごみです) or \"to be thrown away\" (廃棄します). Items 50 cm or longer are Oversized Garbage. Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Mark it \"this is garbage\" (ごみです) or \"to be thrown away\" (廃棄します). Items 50 cm or longer are Oversized Garbage. Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage.",
   "see": null,
   "page": 29
  },
@@ -1516,7 +1516,7 @@
   ],
   "small": false,
   "noteJa": "プラマークがあっても燃やすごみへ。針がついているものは透明な硬い容器に入れる。",
-  "noteEn": "Burnable Garbage, even if they carry the plastic mark. Put anything with a needle in a clear, hard container.",
+  "noteEn": "Burnable Garbage, even if they carry the プラ (pura) mark. Put anything with a needle in a clear, hard container.",
   "see": "burnable.html",
   "page": 29
  },
@@ -1853,8 +1853,8 @@
    "oversized"
   ],
   "small": false,
-  "noteJa": "折りたたんで50㎝未満のものは燃やすごみへ。",
-  "noteEn": "Fold it. If it comes to under 50 cm, put it in Burnable Garbage.",
+  "noteJa": "折りたたんで50cm未満のものは燃やすごみへ。",
+  "noteEn": "If it is under 50 cm when folded, put it out as Burnable Garbage.",
   "see": null,
   "page": 30
  },
@@ -1867,7 +1867,7 @@
   ],
   "small": false,
   "noteJa": "紙袋または半透明の袋に入れる。",
-  "noteEn": "Put it in a paper bag or a semi-transparent bag.",
+  "noteEn": "Put it in a paper bag or a semi-clear bag.",
   "see": null,
   "page": 30
  },
@@ -1893,7 +1893,7 @@
   ],
   "small": false,
   "noteJa": "販売店等に相談。",
-  "noteEn": "The city does not collect this. Ask the store where you bought it.",
+  "noteEn": "The City does not collect this. Ask the store where you bought it or another dealer.",
   "see": "not-collected.html",
   "page": 30
  },
@@ -1945,7 +1945,7 @@
   ],
   "small": false,
   "noteJa": "たまった水を捨ててプラマークを確認。薬剤は燃やすごみへ。",
-  "noteEn": "Pour out the water and check for the plastic mark. The chemical agent goes to Burnable Garbage.",
+  "noteEn": "Pour out the water and check for the プラ (pura) mark. The chemical agent goes to Burnable Garbage.",
   "see": null,
   "page": 30
  },
@@ -1997,7 +1997,7 @@
   ],
   "small": false,
   "noteJa": "折込チラシも一緒に。",
-  "noteEn": "Include the flyers.",
+  "noteEn": "Flyers inserted in the newspaper can go with it.",
   "see": null,
   "page": 30
  },
@@ -2322,7 +2322,7 @@
   ],
   "small": false,
   "noteJa": "外箱（紙製）は折りたたんで古紙（その他の紙）へ。",
-  "noteEn": "Fold the paper outer box and put it in Paper (magazines and other paper).",
+  "noteEn": "Fold the paper outer box and put it in Paper (other paper).",
   "see": null,
   "page": 30
  },
@@ -2374,7 +2374,7 @@
   ],
   "small": false,
   "noteJa": "市では収集できません。",
-  "noteEn": "The city does not collect this. It falls under the Home Appliance Recycling Law.",
+  "noteEn": "The City does not collect this.",
   "see": "not-collected.html",
   "page": 30
  },
@@ -2412,7 +2412,7 @@
    "plastic"
   ],
   "small": false,
-  "noteJa": "金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみへ",
+  "noteJa": "金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみへ。",
   "noteEn": "Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage.",
   "see": null,
   "page": 31
@@ -2459,7 +2459,7 @@
  {
   "id": 190,
   "ja": "体温計（プラスチック製）",
-  "en": "Thermometer (plastic)",
+  "en": "Fever thermometer (plastic)",
   "cats": [
    "burnable"
   ],
@@ -2517,7 +2517,7 @@
   ],
   "small": false,
   "noteJa": "販売店に相談。",
-  "noteEn": "The city does not collect this. Ask a dealer.",
+  "noteEn": "The City does not collect this. Ask a dealer.",
   "see": "not-collected.html",
   "page": 31
  },
@@ -2725,7 +2725,7 @@
   ],
   "small": false,
   "noteJa": "小さい袋に入れて。量が多いときは数回に分けて出す。※基本的に廃棄物として扱っていません。",
-  "noteEn": "Put it in a small bag. If you have a lot, put it out over several collections. The city does not normally treat soil as waste.",
+  "noteEn": "Put it in a small bag. If you have a lot, put it out over several collections. The City does not normally treat soil as waste.",
   "see": null,
   "page": 31
  },
@@ -2894,7 +2894,7 @@
   ],
   "small": false,
   "noteJa": "市では収集できません。",
-  "noteEn": "The city does not collect this. It falls under the Home Appliance Recycling Law.",
+  "noteEn": "The City does not collect this.",
   "see": "not-collected.html",
   "page": 31
  },
@@ -2946,7 +2946,7 @@
   ],
   "small": false,
   "noteJa": "折りたたんで50cm未満のものは燃やすごみへ。",
-  "noteEn": "Fold it. If it comes to under 50 cm, put it in Burnable Garbage.",
+  "noteEn": "If it is under 50 cm when folded, put it out as Burnable Garbage.",
   "see": null,
   "page": 31
  },
@@ -2959,7 +2959,7 @@
   ],
   "small": false,
   "noteJa": "購入時の箱か新聞紙等に包み、品名を表示する。LED（プラスチック製）は燃やすごみへ。",
-  "noteEn": "Wrap in the original box or in newspaper and write the item name on it. LED (plastic) bulbs go to Burnable Garbage.",
+  "noteEn": "Put it in its original box or wrap it in newspaper, and write the item name on it. LED (plastic) bulbs go to Burnable Garbage.",
   "see": null,
   "page": 31
  },
@@ -3427,7 +3427,7 @@
   ],
   "small": true,
   "noteJa": "市では収集できません。",
-  "noteEn": "The city does not collect this. Computers are recycled through the manufacturers (see the \"Not collected by the city\" page). Some smaller sizes are accepted as small appliances.",
+  "noteEn": "The City does not collect this.",
   "see": "not-collected.html",
   "page": 32
  },
@@ -3440,7 +3440,7 @@
   ],
   "small": false,
   "noteJa": "モバイルバッテリーは電池類へ。",
-  "noteEn": "The city does not collect this. Mobile batteries go to Batteries.",
+  "noteEn": "The City does not collect this. Mobile batteries go to Batteries.",
   "see": "not-collected.html",
   "page": 32
  },
@@ -3804,7 +3804,7 @@
   ],
   "small": false,
   "noteJa": "畳んで50cm未満のものは燃やすごみへ。",
-  "noteEn": "Fold it. If it comes to under 50 cm, put it in Burnable Garbage.",
+  "noteEn": "If it is under 50 cm when folded, put it out as Burnable Garbage.",
   "see": null,
   "page": 33
  },
@@ -3902,7 +3902,7 @@
  {
   "id": 301,
   "ja": "風呂桶（プラスチック製）",
-  "en": "Wash basin (plastic)",
+  "en": "Bath bowl (plastic)",
   "cats": [
    "plastic"
   ],
@@ -4090,7 +4090,7 @@
   ],
   "small": false,
   "noteJa": "プラマークを確認。紙製のものは燃やすごみへ。",
-  "noteEn": "Check for the plastic mark. Paper ones go to Burnable Garbage.",
+  "noteEn": "Check for the プラ (pura) mark. Paper ones go to Burnable Garbage.",
   "see": null,
   "page": 33
  },
@@ -4714,7 +4714,7 @@
   ],
   "small": false,
   "noteJa": "市では収集できません。",
-  "noteEn": "The city does not collect this. It falls under the Home Appliance Recycling Law.",
+  "noteEn": "The City does not collect this.",
   "see": "not-collected.html",
   "page": 34
  },
@@ -4734,7 +4734,7 @@
  {
   "id": 365,
   "ja": "レース",
-  "en": "Lace curtain",
+  "en": "Lace",
   "cats": [
    "cloth"
   ],
