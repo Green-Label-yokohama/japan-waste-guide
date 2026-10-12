@@ -558,3 +558,10 @@ html[data-lang="en"] body .answer-title .hit-alt[lang="ja"]{display:inline !impo
 @media (prefers-reduced-motion:no-preference){
   .answer{animation:pop .18s ease-out}
 }
+
+/* 第6版：幅の小さい画面（340px以下）だけ、文字を少し小さくする。
+   英語の検索欄の見本が最後まで見え、上の入口の「Situations」が1行に収まるようにするため。 */
+@media (max-width:340px){
+  .quick a{font-size:.72rem}
+  .search input[type="search"]{font-size:1.05rem}
+}
