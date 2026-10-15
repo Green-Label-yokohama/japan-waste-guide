@@ -8,7 +8,7 @@
   ],
   "small": true,
   "noteJa": "金属製のものは小さな金属類へ。",
-  "noteEn": "Metal irons go to Small Metal Items.",
+  "noteEn": "Metal irons go out as “Small metal items.”",
   "see": null,
   "page": 27
  },
@@ -21,7 +21,7 @@
   ],
   "small": false,
   "noteJa": "木・プラスチック製で50cm未満のものは燃やすごみへ。",
-  "noteEn": "Wood or plastic boards under 50 cm go to Burnable Garbage.",
+  "noteEn": "Wood or plastic boards under 50 cm go out as “Burnable garbage.”",
   "see": null,
   "page": 27
  },
@@ -60,7 +60,7 @@
   ],
   "small": false,
   "noteJa": "飲・食料品用以外のものは小さな金属類へ。ふた（外せるもの）は小さな金属類へ。",
-  "noteEn": "Aluminum cans that did not hold drink or food go to Small Metal Items. So do lids that come off.",
+  "noteEn": "Aluminum cans that did not hold drink or food go out as “Small metal items.” So do lids that come off.",
   "see": null,
   "page": 27
  },
@@ -73,7 +73,7 @@
   ],
   "small": false,
   "noteJa": "50cm未満のもので木製のものは燃やすごみ、プラスチック製のものはプラスチック資源へ。",
-  "noteEn": "Under 50 cm: wooden ones go to Burnable Garbage, plastic ones to Plastic Resources.",
+  "noteEn": "Under 50 cm: wooden ones go out as “Burnable garbage.” Plastic ones go out as “Plastic resources.”",
   "see": null,
   "page": 27
  },
@@ -125,7 +125,7 @@
   ],
   "small": false,
   "noteJa": "分離可能なものは分けて金属部分は小さな金属類へ。",
-  "noteEn": "If the parts come apart, separate them. The metal part goes to Small Metal Items.",
+  "noteEn": "If the parts come apart, separate them. The metal part goes out as “Small metal items.”",
   "see": null,
   "page": 27
  },
@@ -138,7 +138,7 @@
   ],
   "small": true,
   "noteJa": "布製・プラスチック製の充電型ケースも燃やすごみへ。",
-  "noteEn": "Charging cases made of fabric or plastic also go to Burnable Garbage.",
+  "noteEn": "Charging cases made of fabric or plastic also go out as “Burnable garbage.”",
   "see": null,
   "page": 27
  },
@@ -164,7 +164,7 @@
   ],
   "small": false,
   "noteJa": "紙製のパーツ（型紙など）は古紙へ。",
-  "noteEn": "Paper parts (such as paper patterns) go to Paper.",
+  "noteEn": "Paper parts (such as paper patterns) go out as “Paper.”",
   "see": null,
   "page": 27
  },
@@ -177,7 +177,7 @@
   ],
   "small": false,
   "noteJa": "陶器・ガラス製のものは燃えないごみ。金属製のものは小さな金属類へ。",
-  "noteEn": "Ceramic or glass ones go to Non-burnable Garbage. Metal ones go to Small Metal Items.",
+  "noteEn": "Ceramic or glass ones go out as “Non-burnable garbage.” Metal ones go out as “Small metal items.”",
   "see": null,
   "page": 27
  },
@@ -203,7 +203,7 @@
   ],
   "small": false,
   "noteJa": "水洗いして切り開く。内側がアルミのものは燃やすごみへ。",
-  "noteEn": "Rinse and cut open. Cartons lined with aluminum on the inside go to Burnable Garbage.",
+  "noteEn": "Rinse and cut open. Cartons lined with aluminum on the inside go out as “Burnable garbage.”",
   "see": null,
   "page": 27
  },
@@ -216,7 +216,7 @@
   ],
   "small": false,
   "noteJa": "新聞紙等に包み、品名を表示する。50cm以上のものは粗大ごみへ。",
-  "noteEn": "Wrap in newspaper and write the item name on it. Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Wrap in newspaper and write the item name on it. Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 27
  },
@@ -229,7 +229,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 27
  },
@@ -255,7 +255,7 @@
   ],
   "small": true,
   "noteJa": "ベルトが金属製以外のものは燃やすごみへ。",
-  "noteEn": "Watches with a non-metal band go to Burnable Garbage.",
+  "noteEn": "Watches with a non-metal band go out as “Burnable garbage.”",
   "see": null,
   "page": 27
  },
@@ -281,7 +281,7 @@
   ],
   "small": true,
   "noteJa": "プラスチック製で50cm未満のものは燃やすごみへ。金属製で30cm未満のものは小さな金属類へ。",
-  "noteEn": "Plastic ones under 50 cm go to Burnable Garbage. Metal ones under 30 cm go to Small Metal Items.",
+  "noteEn": "Plastic ones under 50 cm go out as “Burnable garbage.” Metal ones under 30 cm go out as “Small metal items.”",
   "see": null,
   "page": 27
  },
@@ -307,7 +307,7 @@
   ],
   "small": false,
   "noteJa": "中身を使い切る。金属製のものは小さな金属類へ。",
-  "noteEn": "Use up the contents. Metal tubes go to Small Metal Items.",
+  "noteEn": "Use up the contents. Metal tubes go out as “Small metal items.”",
   "see": null,
   "page": 27
  },
@@ -346,7 +346,7 @@
   ],
   "small": false,
   "noteJa": "30cm未満のものは小さな金属類へ。",
-  "noteEn": "Items under 30 cm go to Small Metal Items.",
+  "noteEn": "Items under 30 cm go out as “Small metal items.”",
   "see": null,
   "page": 27
  },
@@ -359,7 +359,7 @@
   ],
   "small": false,
   "noteJa": "プラスチック製のものはプラスチック資源へ。",
-  "noteEn": "Plastic ones go to Plastic Resources.",
+  "noteEn": "Plastic ones go out as “Plastic resources.”",
   "see": null,
   "page": 27
  },
@@ -385,7 +385,7 @@
   ],
   "small": false,
   "noteJa": "電池式のものは電池を抜く。50cm以上のものは粗大ごみ。プラスチックのみで50cm未満のものはプラスチック資源へ。",
-  "noteEn": "Remove the batteries. Items 50 cm or longer are Oversized Garbage. Plastic-only toys under 50 cm go to Plastic Resources.",
+  "noteEn": "Remove the batteries. Items 50 cm or longer are oversized garbage. Plastic-only toys under 50 cm go out as “Plastic resources.”",
   "see": null,
   "page": 27
  },
@@ -411,7 +411,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。請負工事に伴い、業者が取り外したものは業者が処分する。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage. If a contractor removed it during renovation work, the contractor disposes of it.",
+  "noteEn": "Items 50 cm or longer are oversized garbage. If a contractor removed it during renovation work, the contractor disposes of it.",
   "see": null,
   "page": 27
  },
@@ -437,7 +437,7 @@
   ],
   "small": false,
   "noteJa": "折りたたんで50cm未満になる場合は燃やすごみへ。",
-  "noteEn": "If it is under 50 cm when folded, put it out as Burnable Garbage.",
+  "noteEn": "If it is under 50 cm when folded, put it out as “Burnable garbage.”",
   "see": null,
   "page": 28
  },
@@ -450,7 +450,7 @@
   ],
   "small": false,
   "noteJa": "ノーカーボンの場合は古紙（その他の紙）へ。",
-  "noteEn": "Carbonless paper goes to Paper (other paper).",
+  "noteEn": "Carbonless paper goes out as “Paper” (other paper).",
   "see": null,
   "page": 28
  },
@@ -463,7 +463,7 @@
   ],
   "small": true,
   "noteJa": "金属製のものは小さな金属類へ。電池は抜く。",
-  "noteEn": "Metal ones go to Small Metal Items. Remove the batteries.",
+  "noteEn": "Metal ones go out as “Small metal items.” Remove the batteries.",
   "see": null,
   "page": 28
  },
@@ -476,7 +476,7 @@
   ],
   "small": false,
   "noteJa": "外包装はプラスチック資源へ。",
-  "noteEn": "The outer packaging goes to Plastic Resources.",
+  "noteEn": "The outer packaging goes out as “Plastic resources.”",
   "see": null,
   "page": 28
  },
@@ -502,7 +502,7 @@
   ],
   "small": false,
   "noteJa": "新聞紙等に包み、品名を表示する。50cm以上のものは粗大ごみへ。",
-  "noteEn": "Wrap in newspaper and write the item name on it. Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Wrap in newspaper and write the item name on it. Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 28
  },
@@ -515,7 +515,7 @@
   ],
   "small": false,
   "noteJa": "燃やすごみへ（50cm以上でも可。ただしレジャー用パラソルは粗大ごみへ。）。",
-  "noteEn": "Burnable Garbage, even if 50 cm or longer. Leisure parasols are Oversized Garbage.",
+  "noteEn": "Burnable garbage, even if 50 cm or longer. Leisure parasols are oversized garbage.",
   "see": null,
   "page": 28
  },
@@ -528,7 +528,7 @@
   ],
   "small": false,
   "noteJa": "骨組みと布部分に分け、布やビニールは燃やすごみへ。持ち手はつけたまま出すことができます。（50cm以上でも可。ただしレジャー用パラソルは粗大ごみへ。）",
-  "noteEn": "Separate the frame from the fabric. Fabric and vinyl go to Burnable Garbage. You can leave the handle on. This is OK even if it is 50 cm or longer. Leisure parasols are Oversized Garbage.",
+  "noteEn": "Separate the frame from the fabric. Fabric and vinyl go out as “Burnable garbage.” You can leave the handle on. This is OK even if it is 50 cm or longer. Leisure parasols are oversized garbage.",
   "see": null,
   "page": 28
  },
@@ -541,7 +541,7 @@
   ],
   "small": true,
   "noteJa": "50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 28
  },
@@ -554,7 +554,7 @@
   ],
   "small": false,
   "noteJa": "折りたたんで出す。油などが付着しているものは燃やすごみへ。",
-  "noteEn": "Fold flat. If it has oil stains, put it in Burnable Garbage.",
+  "noteEn": "Fold flat. If it has oil stains, put it out as “Burnable garbage.”",
   "see": null,
   "page": 28
  },
@@ -567,7 +567,7 @@
   ],
   "small": false,
   "noteJa": "ふたについては小さな金属類へ。30cm以上のものは粗大ごみへ。",
-  "noteEn": "The lid goes to Small Metal Items. Items 30 cm or longer are Oversized Garbage.",
+  "noteEn": "The lid goes out as “Small metal items.” Items 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 28
  },
@@ -580,7 +580,7 @@
   ],
   "small": false,
   "noteJa": "30cm未満のものは小さな金属類。電池は抜く。",
-  "noteEn": "Items under 30 cm go to Small Metal Items. Remove the batteries.",
+  "noteEn": "Items under 30 cm go out as “Small metal items.” Remove the batteries.",
   "see": null,
   "page": 28
  },
@@ -593,7 +593,7 @@
   ],
   "small": false,
   "noteJa": "中身を出し切って。穴はあけない。キャップはプラスチック資源へ。",
-  "noteEn": "Empty it completely. Do not make holes. The cap goes to Plastic Resources.",
+  "noteEn": "Empty it completely. Do not make holes. The cap goes out as “Plastic resources.”",
   "see": null,
   "page": 28
  },
@@ -619,7 +619,7 @@
   ],
   "small": false,
   "noteJa": "インデックス（紙）は古紙へ。ケースはプラスチック資源へ。",
-  "noteEn": "The paper insert goes to Paper. The case goes to Plastic Resources.",
+  "noteEn": "The paper insert goes out as “Paper.” The case goes out as “Plastic resources.”",
   "see": null,
   "page": 28
  },
@@ -658,7 +658,7 @@
   ],
   "small": false,
   "noteJa": "プラスチック製の場合はプラスチック資源へ。",
-  "noteEn": "Plastic lids go to Plastic Resources.",
+  "noteEn": "Plastic lids go out as “Plastic resources.”",
   "see": null,
   "page": 28
  },
@@ -671,7 +671,7 @@
   ],
   "small": false,
   "noteJa": "紙製のものは燃やすごみへ。",
-  "noteEn": "Paper ones go to Burnable Garbage.",
+  "noteEn": "Paper ones go out as “Burnable garbage.”",
   "see": null,
   "page": 28
  },
@@ -684,7 +684,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 28
  },
@@ -697,7 +697,7 @@
   ],
   "small": false,
   "noteJa": "新聞紙等に包み、品名を表示する。50cm以上のものは粗大ごみへ。",
-  "noteEn": "Wrap in newspaper and write the item name on it. Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Wrap in newspaper and write the item name on it. Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 28
  },
@@ -710,7 +710,7 @@
   ],
   "small": false,
   "noteJa": "未使用のものは古紙へ。",
-  "noteEn": "Unused ones go to Paper.",
+  "noteEn": "Unused ones go out as “Paper.”",
   "see": null,
   "page": 28
  },
@@ -723,7 +723,7 @@
   ],
   "small": false,
   "noteJa": "取っ手が金属製の場合は新聞紙等に包み、品名を表示して小さな金属類へ。",
-  "noteEn": "If the handle is metal, wrap it in newspaper, write the item name on it, and put it out as Small Metal Items.",
+  "noteEn": "If the handle is metal, wrap it in newspaper, write the item name on it, and put it out as “Small metal items.”",
   "see": null,
   "page": 28
  },
@@ -736,7 +736,7 @@
   ],
   "small": true,
   "noteJa": "電池は抜く（充電池は電池類へ）。",
-  "noteEn": "Remove the batteries. (Rechargeable batteries go to Batteries.)",
+  "noteEn": "Remove the batteries. (Rechargeable batteries go out as “Batteries.”)",
   "see": null,
   "page": 28
  },
@@ -749,7 +749,7 @@
   ],
   "small": false,
   "noteJa": "新聞紙等に包み、品名を表示する。カートリッジ式のものは燃やすごみへ。",
-  "noteEn": "Wrap in newspaper and write the item name on it. Cartridge types go to Burnable Garbage.",
+  "noteEn": "Wrap in newspaper and write the item name on it. Cartridge types go out as “Burnable garbage.”",
   "see": null,
   "page": 28
  },
@@ -762,7 +762,7 @@
   ],
   "small": false,
   "noteJa": "内側がアルミのものは燃やすごみへ。",
-  "noteEn": "Cartons with aluminum on the inside go to Burnable Garbage.",
+  "noteEn": "Cartons with aluminum on the inside go out as “Burnable garbage.”",
   "see": null,
   "page": 28
  },
@@ -788,7 +788,7 @@
   ],
   "small": true,
   "noteJa": "電池は抜く。金属製のものは小さな金属類へ。",
-  "noteEn": "Remove the batteries. Metal ones go to Small Metal Items.",
+  "noteEn": "Remove the batteries. Metal ones go out as “Small metal items.”",
   "see": null,
   "page": 28
  },
@@ -801,7 +801,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上のものは粗大ごみへ。プラスチック製で50cm未満のものは燃やすごみ、50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage. Plastic ones under 50 cm go to Burnable Garbage; 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 30 cm or longer are oversized garbage. Plastic ones under 50 cm go out as “Burnable garbage”; 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 28
  },
@@ -827,7 +827,7 @@
   ],
   "small": false,
   "noteJa": "缶についたままのものは缶・びん・ペットボトルへ。",
-  "noteEn": "If it is still attached to the can, put it out with Cans, Bottles & PET Bottles.",
+  "noteEn": "If it is still attached to the can, put it out as “Cans, bottles & PET bottles.”",
   "see": null,
   "page": 28
  },
@@ -866,7 +866,7 @@
   ],
   "small": false,
   "noteJa": "ソフトケース（たためるもの）は、たたんで燃やすごみへ。",
-  "noteEn": "Soft cases that fold up go to Burnable Garbage once folded.",
+  "noteEn": "Soft cases that fold up go out as “Burnable garbage” once folded.",
   "see": null,
   "page": 28
  },
@@ -879,7 +879,7 @@
   ],
   "small": false,
   "noteJa": "30cm未満のものは小さな金属類へ。アルミシート製、シールタイプのものは燃やすごみへ。",
-  "noteEn": "Items under 30 cm go to Small Metal Items. Aluminum sheet or sticker types go to Burnable Garbage.",
+  "noteEn": "Items under 30 cm go out as “Small metal items.” Aluminum sheet or sticker types go out as “Burnable garbage.”",
   "see": null,
   "page": 28
  },
@@ -892,7 +892,7 @@
   ],
   "small": false,
   "noteJa": "長さ50cm未満にする。それ以上のものは粗大ごみへ。",
-  "noteEn": "Cut to under 50 cm. Longer branches are Oversized Garbage.",
+  "noteEn": "Cut to under 50 cm. Longer branches are oversized garbage.",
   "see": null,
   "page": 28
  },
@@ -905,7 +905,7 @@
   ],
   "small": false,
   "noteJa": "洗濯して乾かしてから。（綿入りのものは燃やすごみへ）",
-  "noteEn": "Wash and dry first. Padded ones go to Burnable Garbage.",
+  "noteEn": "Wash and dry first. Padded ones go out as “Burnable garbage.”",
   "see": null,
   "page": 28
  },
@@ -957,7 +957,7 @@
   ],
   "small": false,
   "noteJa": "プラスチック製で50cm未満のものは燃やすごみへ。金属製で30cm未満のものは小さな金属類へ。",
-  "noteEn": "Plastic ones under 50 cm go to Burnable Garbage. Metal ones under 30 cm go to Small Metal Items.",
+  "noteEn": "Plastic ones under 50 cm go out as “Burnable garbage.” Metal ones under 30 cm go out as “Small metal items.”",
   "see": null,
   "page": 28
  },
@@ -970,7 +970,7 @@
   ],
   "small": true,
   "noteJa": "50cm以上のものは粗大ごみへ。ガラス部分は燃えないごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage. Glass parts go to Non-burnable Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage. Glass parts go out as “Non-burnable garbage.”",
   "see": null,
   "page": 28
  },
@@ -983,7 +983,7 @@
   ],
   "small": false,
   "noteJa": "50cm未満のものは燃やすごみへ。",
-  "noteEn": "Items under 50 cm go to Burnable Garbage.",
+  "noteEn": "Items under 50 cm go out as “Burnable garbage.”",
   "see": null,
   "page": 28
  },
@@ -1009,7 +1009,7 @@
   ],
   "small": false,
   "noteJa": "プラスチック製のものはプラスチック資源へ。",
-  "noteEn": "Plastic ones go to Plastic Resources.",
+  "noteEn": "Plastic ones go out as “Plastic resources.”",
   "see": null,
   "page": 28
  },
@@ -1022,7 +1022,7 @@
   ],
   "small": false,
   "noteJa": "金属製のものは新聞紙等に包み、品名を表示して小さな金属類へ。",
-  "noteEn": "Metal ones: wrap in newspaper, write the item name on it, and put out as Small Metal Items.",
+  "noteEn": "Metal ones: wrap in newspaper, write the item name on it, and put out as “Small metal items.”",
   "see": null,
   "page": 29
  },
@@ -1074,7 +1074,7 @@
   ],
   "small": false,
   "noteJa": "容器と分離して。容器はプラスチック資源へ。金属製のものは小さな金属類へ。",
-  "noteEn": "Separate it from its container. The container goes to Plastic Resources. Metal ones go to Small Metal Items.",
+  "noteEn": "Separate it from its container. The container goes out as “Plastic resources.” Metal ones go out as “Small metal items.”",
   "see": null,
   "page": 29
  },
@@ -1100,7 +1100,7 @@
   ],
   "small": false,
   "noteJa": "洗濯して乾かしてから。破れていたり、左右そろっていないものは燃やすごみへ。",
-  "noteEn": "Wash and dry first. Torn or unmatched socks go to Burnable Garbage.",
+  "noteEn": "Wash and dry first. Torn or unmatched socks go out as “Burnable garbage.”",
   "see": null,
   "page": 29
  },
@@ -1113,7 +1113,7 @@
   ],
   "small": false,
   "noteJa": "捺染紙以外のものは古紙へ。プラスチック製のものはプラスチック資源へ。",
-  "noteEn": "Anything other than iron-on transfer paper goes to Paper. Plastic ones go to Plastic Resources.",
+  "noteEn": "Anything other than iron-on transfer paper goes out as “Paper.” Plastic ones go out as “Plastic resources.”",
   "see": null,
   "page": 29
  },
@@ -1126,7 +1126,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 29
  },
@@ -1165,7 +1165,7 @@
   ],
   "small": false,
   "noteJa": "紙製のものは古紙へ。",
-  "noteEn": "Paper ones go to Paper.",
+  "noteEn": "Paper ones go out as “Paper.”",
   "see": null,
   "page": 29
  },
@@ -1204,7 +1204,7 @@
   ],
   "small": false,
   "noteJa": "照明器具から取り外し、割れないように購入時の箱などに入れて品名を表示する。50cm以上でも可。LED（プラスチック製）は燃やすごみへ。",
-  "noteEn": "Remove it from the fixture. Put it in its original box or similar so it won't break, and write the item name on it. This is OK even if it is 50 cm or longer. LED (plastic) ones go to Burnable Garbage.",
+  "noteEn": "Remove it from the fixture. Put it in its original box or similar so it won't break, and write the item name on it. This is OK even if it is 50 cm or longer. LED (plastic) ones go out as “Burnable garbage.”",
   "see": null,
   "page": 29
  },
@@ -1243,7 +1243,7 @@
   ],
   "small": false,
   "noteJa": "プラスチック製の容器やふたはプラスチック資源へ。",
-  "noteEn": "Plastic containers and lids go to Plastic Resources.",
+  "noteEn": "Plastic containers and lids go out as “Plastic resources.”",
   "see": null,
   "page": 29
  },
@@ -1295,7 +1295,7 @@
   ],
   "small": false,
   "noteJa": "洗濯して乾かしてから。革製のものは燃やすごみへ。",
-  "noteEn": "Wash and dry first. Leather ones go to Burnable Garbage.",
+  "noteEn": "Wash and dry first. Leather ones go out as “Burnable garbage.”",
   "see": null,
   "page": 29
  },
@@ -1321,7 +1321,7 @@
   ],
   "small": false,
   "noteJa": "内ふたは燃やすごみ、キャップはプラスチック資源へ。",
-  "noteEn": "The inner lid goes to Burnable Garbage. The cap goes to Plastic Resources.",
+  "noteEn": "The inner lid goes out as “Burnable garbage.” The cap goes out as “Plastic resources.”",
   "see": null,
   "page": 29
  },
@@ -1334,7 +1334,7 @@
   ],
   "small": true,
   "noteJa": "ガラス製ポットは燃えないごみへ。金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみへ。",
-  "noteEn": "Glass pots go to Non-burnable Garbage. Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Glass pots go out as “Non-burnable garbage.” Metal ones under 30 cm go out as “Small metal items”; 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 29
  },
@@ -1347,7 +1347,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 29
  },
@@ -1373,7 +1373,7 @@
   ],
   "small": false,
   "noteJa": "プラスチック製のものはプラスチック資源へ。",
-  "noteEn": "Plastic ones go to Plastic Resources.",
+  "noteEn": "Plastic ones go out as “Plastic resources.”",
   "see": null,
   "page": 29
  },
@@ -1386,7 +1386,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 29
  },
@@ -1399,7 +1399,7 @@
   ],
   "small": false,
   "noteJa": "「ごみです」「廃棄します」等を明示。50cm以上のものは粗大ごみへ。金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみへ。",
-  "noteEn": "Mark it \"this is garbage\" (ごみです) or \"to be thrown away\" (廃棄します). Items 50 cm or longer are Oversized Garbage. Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Mark it \"this is garbage\" (ごみです) or \"to be thrown away\" (廃棄します). Items 50 cm or longer are oversized garbage. Metal ones under 30 cm go out as “Small metal items”; 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 29
  },
@@ -1425,7 +1425,7 @@
   ],
   "small": false,
   "noteJa": "30cm未満のものは小さな金属類へ。プラスチック製で50cm未満のものはプラスチック資源へ。",
-  "noteEn": "Items under 30 cm go to Small Metal Items. Plastic ones under 50 cm go to Plastic Resources.",
+  "noteEn": "Items under 30 cm go out as “Small metal items.” Plastic ones under 50 cm go out as “Plastic resources.”",
   "see": null,
   "page": 29
  },
@@ -1438,7 +1438,7 @@
   ],
   "small": false,
   "noteJa": "中身を空にする。麻製のものは燃やすごみ、紙製のものは古紙へ。",
-  "noteEn": "Empty it. Hemp bags go to Burnable Garbage. Paper bags go to Paper.",
+  "noteEn": "Empty it. Hemp bags go out as “Burnable garbage.” Paper bags go out as “Paper.”",
   "see": null,
   "page": 29
  },
@@ -1490,7 +1490,7 @@
   ],
   "small": false,
   "noteJa": "使い捨てタイプの容器はプラスチック資源へ。",
-  "noteEn": "Disposable-type cases go to Plastic Resources.",
+  "noteEn": "Disposable-type cases go out as “Plastic resources.”",
   "see": null,
   "page": 29
  },
@@ -1503,7 +1503,7 @@
   ],
   "small": false,
   "noteJa": "電池は抜く。30cm以上のものは粗大ごみへ。",
-  "noteEn": "Remove the batteries. Items 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Remove the batteries. Items 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 29
  },
@@ -1516,7 +1516,7 @@
   ],
   "small": false,
   "noteJa": "プラマークがあっても燃やすごみへ。針がついているものは透明な硬い容器に入れる。",
-  "noteEn": "Burnable Garbage, even if they carry the プラ (pura) mark. Put anything with a needle in a clear, hard container.",
+  "noteEn": "Burnable garbage, even if they carry the プラ (pura) mark. Put anything with a needle in a clear, hard container.",
   "see": "burnable.html",
   "page": 29
  },
@@ -1594,7 +1594,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 29
  },
@@ -1620,7 +1620,7 @@
   ],
   "small": false,
   "noteJa": "レンズがガラス製のものは、燃えないごみへ。",
-  "noteEn": "Glass lenses go to Non-burnable Garbage.",
+  "noteEn": "Glass lenses go out as “Non-burnable garbage.”",
   "see": null,
   "page": 29
  },
@@ -1646,7 +1646,7 @@
   ],
   "small": false,
   "noteJa": "インデックス（紙）は古紙へ。",
-  "noteEn": "The paper insert goes to Paper.",
+  "noteEn": "The paper insert goes out as “Paper.”",
   "see": null,
   "page": 29
  },
@@ -1659,7 +1659,7 @@
   ],
   "small": true,
   "noteJa": "プラスチック製で50cm未満のものは燃やすごみへ。金属製で30cm未満のものは小さな金属類へ。",
-  "noteEn": "Plastic ones under 50 cm go to Burnable Garbage. Metal ones under 30 cm go to Small Metal Items.",
+  "noteEn": "Plastic ones under 50 cm go out as “Burnable garbage.” Metal ones under 30 cm go out as “Small metal items.”",
   "see": null,
   "page": 29
  },
@@ -1685,7 +1685,7 @@
   ],
   "small": false,
   "noteJa": "台紙は古紙（雑誌・その他の紙）へ。",
-  "noteEn": "The backing paper goes to Paper (magazines and other paper).",
+  "noteEn": "The backing paper goes out as “Paper” (magazines and other paper).",
   "see": null,
   "page": 29
  },
@@ -1724,7 +1724,7 @@
   ],
   "small": false,
   "noteJa": "シートタイプのものは燃やすごみへ。",
-  "noteEn": "Sheet-type magnets go to Burnable Garbage.",
+  "noteEn": "Sheet-type magnets go out as “Burnable garbage.”",
   "see": null,
   "page": 30
  },
@@ -1789,7 +1789,7 @@
   ],
   "small": false,
   "noteJa": "芯ケース（プラスチック製）はプラスチック資源へ。",
-  "noteEn": "The lead case (plastic) goes to Plastic Resources.",
+  "noteEn": "The lead case (plastic) goes out as “Plastic resources.”",
   "see": null,
   "page": 30
  },
@@ -1802,7 +1802,7 @@
   ],
   "small": false,
   "noteJa": "請負工事に伴い、業者が取り外したものは業者が処分する。30cm未満のものは小さな金属類へ。",
-  "noteEn": "If a contractor removed it during renovation work, the contractor disposes of it. Items under 30 cm go to Small Metal Items.",
+  "noteEn": "If a contractor removed it during renovation work, the contractor disposes of it. Items under 30 cm go out as “Small metal items.”",
   "see": null,
   "page": 30
  },
@@ -1815,7 +1815,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 30
  },
@@ -1828,7 +1828,7 @@
   ],
   "small": false,
   "noteJa": "写真（ネガ）はプラスチック資源へ。",
-  "noteEn": "Photo negatives go to Plastic Resources.",
+  "noteEn": "Photo negatives go out as “Plastic resources.”",
   "see": null,
   "page": 30
  },
@@ -1854,7 +1854,7 @@
   ],
   "small": false,
   "noteJa": "折りたたんで50cm未満のものは燃やすごみへ。",
-  "noteEn": "If it is under 50 cm when folded, put it out as Burnable Garbage.",
+  "noteEn": "If it is under 50 cm when folded, put it out as “Burnable garbage.”",
   "see": null,
   "page": 30
  },
@@ -1906,7 +1906,7 @@
   ],
   "small": false,
   "noteJa": "金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみへ。木製で50cm未満のものは燃やすごみへ。",
-  "noteEn": "Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage. Wooden ones under 50 cm go to Burnable Garbage.",
+  "noteEn": "Metal ones under 30 cm go out as “Small metal items”; 30 cm or longer are oversized garbage. Wooden ones under 50 cm go out as “Burnable garbage.”",
   "see": null,
   "page": 30
  },
@@ -1919,7 +1919,7 @@
   ],
   "small": false,
   "noteJa": "電球等は外す。金属製で30cm未満のものは小さな金属類へ。木・プラスチック製で50cm未満のものは燃やすごみへ。",
-  "noteEn": "Remove the bulbs. Metal ones under 30 cm go to Small Metal Items. Wood or plastic ones under 50 cm go to Burnable Garbage.",
+  "noteEn": "Remove the bulbs. Metal ones under 30 cm go out as “Small metal items.” Wood or plastic ones under 50 cm go out as “Burnable garbage.”",
   "see": null,
   "page": 30
  },
@@ -1945,7 +1945,7 @@
   ],
   "small": false,
   "noteJa": "たまった水を捨ててプラマークを確認。薬剤は燃やすごみへ。",
-  "noteEn": "Pour out the water and check for the プラ (pura) mark. The chemical agent goes to Burnable Garbage.",
+  "noteEn": "Pour out the water and check for the プラ (pura) mark. The chemical agent goes out as “Burnable garbage.”",
   "see": null,
   "page": 30
  },
@@ -2010,7 +2010,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上のものは粗大ごみへ。プラスチック製で50cm未満のものは燃やすごみ、50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage. Plastic ones under 50 cm go to Burnable Garbage; 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 30 cm or longer are oversized garbage. Plastic ones under 50 cm go out as “Burnable garbage”; 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 30
  },
@@ -2023,7 +2023,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage. Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage. Metal ones under 30 cm go out as “Small metal items”; 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 30
  },
@@ -2036,7 +2036,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上のものは粗大ごみへ。炭製のものは燃えないごみへ。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage. Carbon (charcoal) ones go to Non-burnable Garbage.",
+  "noteEn": "Items 30 cm or longer are oversized garbage. Carbon (charcoal) ones go out as “Non-burnable garbage.”",
   "see": null,
   "page": 30
  },
@@ -2062,7 +2062,7 @@
   ],
   "small": false,
   "noteJa": "布・プラスチック製で50cm未満のものは燃やすごみへ。",
-  "noteEn": "Fabric or plastic ones under 50 cm go to Burnable Garbage.",
+  "noteEn": "Fabric or plastic ones under 50 cm go out as “Burnable garbage.”",
   "see": null,
   "page": 30
  },
@@ -2088,7 +2088,7 @@
   ],
   "small": false,
   "noteJa": "洗濯して乾かしてから。ダウン、綿入りは燃やすごみへ。",
-  "noteEn": "Wash and dry first. Down-filled or padded items go to Burnable Garbage.",
+  "noteEn": "Wash and dry first. Down-filled or padded items go out as “Burnable garbage.”",
   "see": null,
   "page": 30
  },
@@ -2114,7 +2114,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 30
  },
@@ -2127,7 +2127,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 30
  },
@@ -2179,7 +2179,7 @@
   ],
   "small": false,
   "noteJa": "紙製は古紙へ。",
-  "noteEn": "Paper ones go to Paper.",
+  "noteEn": "Paper ones go out as “Paper.”",
   "see": null,
   "page": 30
  },
@@ -2205,7 +2205,7 @@
   ],
   "small": false,
   "noteJa": "木製のものは燃やすごみへ、プラスチック製のものはプラスチック資源へ。",
-  "noteEn": "Wooden ones go to Burnable Garbage. Plastic ones go to Plastic Resources.",
+  "noteEn": "Wooden ones go out as “Burnable garbage.” Plastic ones go out as “Plastic resources.”",
   "see": null,
   "page": 30
  },
@@ -2218,7 +2218,7 @@
   ],
   "small": false,
   "noteJa": "コンビニ等でもらう使い捨て用スプーンの袋。紙製のものは古紙へ。",
-  "noteEn": "The bags that disposable spoons come in at convenience stores. Paper ones go to Paper.",
+  "noteEn": "The bags that disposable spoons come in at convenience stores. Paper ones go out as “Paper.”",
   "see": null,
   "page": 30
  },
@@ -2309,7 +2309,7 @@
   ],
   "small": false,
   "noteJa": "芯は古紙へ。",
-  "noteEn": "The core goes to Paper.",
+  "noteEn": "The core goes out as “Paper.”",
   "see": null,
   "page": 30
  },
@@ -2322,7 +2322,7 @@
   ],
   "small": false,
   "noteJa": "外箱（紙製）は折りたたんで古紙（その他の紙）へ。",
-  "noteEn": "Fold the paper outer box and put it in Paper (other paper).",
+  "noteEn": "Fold the paper outer box and put it out as “Paper” (other paper).",
   "see": null,
   "page": 30
  },
@@ -2348,7 +2348,7 @@
   ],
   "small": false,
   "noteJa": "紙製のものは燃やすごみへ。",
-  "noteEn": "Paper ones go to Burnable Garbage.",
+  "noteEn": "Paper ones go out as “Burnable garbage.”",
   "see": null,
   "page": 30
  },
@@ -2361,7 +2361,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 30
  },
@@ -2387,7 +2387,7 @@
   ],
   "small": false,
   "noteJa": "金属製のものは小さな金属類へ。",
-  "noteEn": "Metal ones go to Small Metal Items.",
+  "noteEn": "Metal ones go out as “Small metal items.”",
   "see": null,
   "page": 30
  },
@@ -2400,7 +2400,7 @@
   ],
   "small": false,
   "noteJa": "50cm未満のものは燃やすごみへ。金属製で30cm未満のものは小さな金属類へ。",
-  "noteEn": "Items under 50 cm go to Burnable Garbage. Metal ones under 30 cm go to Small Metal Items.",
+  "noteEn": "Items under 50 cm go out as “Burnable garbage.” Metal ones under 30 cm go out as “Small metal items.”",
   "see": null,
   "page": 31
  },
@@ -2413,7 +2413,7 @@
   ],
   "small": false,
   "noteJa": "金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみへ。",
-  "noteEn": "Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Metal ones under 30 cm go out as “Small metal items”; 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 31
  },
@@ -2426,7 +2426,7 @@
   ],
   "small": false,
   "noteJa": "50cm未満のものは燃やすごみへ。電池は抜く。",
-  "noteEn": "Items under 50 cm go to Burnable Garbage. Remove the batteries.",
+  "noteEn": "Items under 50 cm go out as “Burnable garbage.” Remove the batteries.",
   "see": null,
   "page": 31
  },
@@ -2478,7 +2478,7 @@
   ],
   "small": true,
   "noteJa": "50cm以上のものは粗大ごみへ。デジタル式は小型家電の対象。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage. Digital ones count as small appliances.",
+  "noteEn": "Items 50 cm or longer are oversized garbage. Digital ones count as small appliances.",
   "see": null,
   "page": 31
  },
@@ -2491,7 +2491,7 @@
   ],
   "small": true,
   "noteJa": "30cm以上のものは粗大ごみへ。デジタル式は小型家電の対象。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage. Digital ones count as small appliances.",
+  "noteEn": "Items 30 cm or longer are oversized garbage. Digital ones count as small appliances.",
   "see": null,
   "page": 31
  },
@@ -2530,7 +2530,7 @@
   ],
   "small": false,
   "noteJa": "ゴム製などの金属製以外のものは燃やすごみへ。",
-  "noteEn": "Non-metal ones, such as rubber, go to Burnable Garbage.",
+  "noteEn": "Non-metal ones, such as rubber, go out as “Burnable garbage.”",
   "see": null,
   "page": 31
  },
@@ -2543,7 +2543,7 @@
   ],
   "small": false,
   "noteJa": "ビニール製のものはプラスチック資源へ。",
-  "noteEn": "Vinyl ones go to Plastic Resources.",
+  "noteEn": "Vinyl ones go out as “Plastic resources.”",
   "see": null,
   "page": 31
  },
@@ -2569,7 +2569,7 @@
   ],
   "small": false,
   "noteJa": "50cm未満のものは燃やすごみへ。",
-  "noteEn": "Items under 50 cm go to Burnable Garbage.",
+  "noteEn": "Items under 50 cm go out as “Burnable garbage.”",
   "see": null,
   "page": 31
  },
@@ -2608,7 +2608,7 @@
   ],
   "small": false,
   "noteJa": "中の銀紙は燃やすごみ。",
-  "noteEn": "The foil inside goes to Burnable Garbage.",
+  "noteEn": "The foil inside goes out as “Burnable garbage.”",
   "see": null,
   "page": 31
  },
@@ -2621,7 +2621,7 @@
   ],
   "small": false,
   "noteJa": "紙製のものは古紙へ。",
-  "noteEn": "Paper ones go to Paper.",
+  "noteEn": "Paper ones go out as “Paper.”",
   "see": null,
   "page": 31
  },
@@ -2660,7 +2660,7 @@
   ],
   "small": false,
   "noteJa": "粘着テープ、伝票などは取って燃やすごみへ。アルミコーティングされたものは燃やすごみへ。",
-  "noteEn": "Remove adhesive tape and shipping labels and put them in Burnable Garbage. Aluminum-coated cardboard goes to Burnable Garbage.",
+  "noteEn": "Remove adhesive tape and shipping labels and put them out as “Burnable garbage.” Aluminum-coated cardboard goes out as “Burnable garbage.”",
   "see": null,
   "page": 31
  },
@@ -2699,7 +2699,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上のものは粗大ごみへ。プラスチック製のものはプラスチック資源へ。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage. Plastic ones go to Plastic Resources.",
+  "noteEn": "Items 30 cm or longer are oversized garbage. Plastic ones go out as “Plastic resources.”",
   "see": null,
   "page": 31
  },
@@ -2738,7 +2738,7 @@
   ],
   "small": false,
   "noteJa": "プラスチック製で50cm未満のものは燃やすごみへ。金属製で30cm未満のものは小さな金属類へ。",
-  "noteEn": "Plastic ones under 50 cm go to Burnable Garbage. Metal ones under 30 cm go to Small Metal Items.",
+  "noteEn": "Plastic ones under 50 cm go out as “Burnable garbage.” Metal ones under 30 cm go out as “Small metal items.”",
   "see": null,
   "page": 31
  },
@@ -2790,7 +2790,7 @@
   ],
   "small": false,
   "noteJa": "折りたたんで。取り出し口のフィルムはプラスチック資源へ。",
-  "noteEn": "Fold flat. The film around the opening goes to Plastic Resources.",
+  "noteEn": "Fold flat. The film around the opening goes out as “Plastic resources.”",
   "see": null,
   "page": 31
  },
@@ -2803,7 +2803,7 @@
   ],
   "small": false,
   "noteJa": "インデックス（紙）は、古紙へ。",
-  "noteEn": "The paper insert goes to Paper.",
+  "noteEn": "The paper insert goes out as “Paper.”",
   "see": null,
   "page": 31
  },
@@ -2829,7 +2829,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 31
  },
@@ -2842,7 +2842,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 31
  },
@@ -2881,7 +2881,7 @@
   ],
   "small": false,
   "noteJa": "洗濯して乾かしてから。ゴム製・革製・綿が入っているもの、破れているもの、左右そろっていないものは燃やすごみへ。",
-  "noteEn": "Wash and dry first. Rubber, leather, padded, torn or unmatched gloves go to Burnable Garbage.",
+  "noteEn": "Wash and dry first. Rubber, leather, padded, torn or unmatched gloves go out as “Burnable garbage.”",
   "see": null,
   "page": 31
  },
@@ -2933,7 +2933,7 @@
   ],
   "small": true,
   "noteJa": "50cm以上のものは粗大ごみへ。金属製で30cm未満のものは小さな金属類へ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage. Metal ones under 30 cm go to Small Metal Items.",
+  "noteEn": "Items 50 cm or longer are oversized garbage. Metal ones under 30 cm go out as “Small metal items.”",
   "see": null,
   "page": 31
  },
@@ -2946,7 +2946,7 @@
   ],
   "small": false,
   "noteJa": "折りたたんで50cm未満のものは燃やすごみへ。",
-  "noteEn": "If it is under 50 cm when folded, put it out as Burnable Garbage.",
+  "noteEn": "If it is under 50 cm when folded, put it out as “Burnable garbage.”",
   "see": null,
   "page": 31
  },
@@ -2959,7 +2959,7 @@
   ],
   "small": false,
   "noteJa": "購入時の箱か新聞紙等に包み、品名を表示する。LED（プラスチック製）は燃やすごみへ。",
-  "noteEn": "Put it in its original box or wrap it in newspaper, and write the item name on it. LED (plastic) bulbs go to Burnable Garbage.",
+  "noteEn": "Put it in its original box or wrap it in newspaper, and write the item name on it. LED (plastic) bulbs go out as “Burnable garbage.”",
   "see": null,
   "page": 31
  },
@@ -3037,7 +3037,7 @@
   ],
   "small": true,
   "noteJa": "バッテリーは電池類へ。",
-  "noteEn": "Batteries go to Batteries.",
+  "noteEn": "Batteries go out as “Batteries.”",
   "see": null,
   "page": 31
  },
@@ -3089,7 +3089,7 @@
   ],
   "small": false,
   "noteJa": "紙製のものは古紙へ。",
-  "noteEn": "Paper ones go to Paper.",
+  "noteEn": "Paper ones go out as “Paper.”",
   "see": null,
   "page": 32
  },
@@ -3115,7 +3115,7 @@
   ],
   "small": true,
   "noteJa": "30cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 32
  },
@@ -3128,7 +3128,7 @@
   ],
   "small": true,
   "noteJa": "ガラス・陶器製のものは燃えないごみへ。50cm以上のものは粗大ごみへ。",
-  "noteEn": "Glass or ceramic ones go to Non-burnable Garbage. Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Glass or ceramic ones go out as “Non-burnable garbage.” Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 32
  },
@@ -3154,7 +3154,7 @@
   ],
   "small": false,
   "noteJa": "新聞紙等に包み、品名を表示する。30cm以上のものは粗大ごみへ。",
-  "noteEn": "Wrap in newspaper and write the item name on it. Items 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Wrap in newspaper and write the item name on it. Items 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 32
  },
@@ -3167,7 +3167,7 @@
   ],
   "small": true,
   "noteJa": "金属製のものは小さな金属類へ。",
-  "noteEn": "Metal ones go to Small Metal Items.",
+  "noteEn": "Metal ones go out as “Small metal items.”",
   "see": null,
   "page": 32
  },
@@ -3219,7 +3219,7 @@
   ],
   "small": false,
   "noteJa": "紙製のものは燃やすごみへ。",
-  "noteEn": "Paper ones go to Burnable Garbage.",
+  "noteEn": "Paper ones go out as “Burnable garbage.”",
   "see": null,
   "page": 32
  },
@@ -3232,7 +3232,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上（取っ手は除く）のものは粗大ごみへ。",
-  "noteEn": "Items 30 cm or longer (not counting the handle) are Oversized Garbage.",
+  "noteEn": "Items 30 cm or longer (not counting the handle) are oversized garbage.",
   "see": null,
   "page": 32
  },
@@ -3271,7 +3271,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 32
  },
@@ -3310,7 +3310,7 @@
   ],
   "small": false,
   "noteJa": "紙粘土、小麦粘土は燃やすごみへ。",
-  "noteEn": "Paper clay and flour clay go to Burnable Garbage.",
+  "noteEn": "Paper clay and flour clay go out as “Burnable garbage.”",
   "see": null,
   "page": 32
  },
@@ -3336,7 +3336,7 @@
   ],
   "small": false,
   "noteJa": "柄を含めずに30cm未満のものは、新聞紙等に包み、品名を表示して小さな金属類へ。",
-  "noteEn": "Items under 30 cm (not counting the handle): wrap in newspaper, write the item name on it, and put out as Small Metal Items.",
+  "noteEn": "Items under 30 cm (not counting the handle): wrap in newspaper, write the item name on it, and put out as “Small metal items.”",
   "see": null,
   "page": 32
  },
@@ -3349,7 +3349,7 @@
   ],
   "small": false,
   "noteJa": "金属部分は分離可能であれば小さな金属類へ。紙製のものは古紙へ。",
-  "noteEn": "Separate the metal parts if you can. They go to Small Metal Items. Paper ones go to Paper.",
+  "noteEn": "Separate the metal parts if you can. They go out as “Small metal items.” Paper ones go out as “Paper.”",
   "see": null,
   "page": 32
  },
@@ -3375,7 +3375,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上のものは粗大ごみへ。プラスチック製で50cm未満のものはプラスチック資源、50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage. Plastic ones under 50 cm go to Plastic Resources; 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 30 cm or longer are oversized garbage. Plastic ones under 50 cm go out as “Plastic resources”; 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 32
  },
@@ -3388,7 +3388,7 @@
   ],
   "small": false,
   "noteJa": "新聞紙等に包み、品名を表示する。30cm以上のものは粗大ごみへ。",
-  "noteEn": "Wrap in newspaper and write the item name on it. Items 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Wrap in newspaper and write the item name on it. Items 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 32
  },
@@ -3401,7 +3401,7 @@
   ],
   "small": false,
   "noteJa": "金属製で30cm未満のものは小さな金属類、それ以上のものは粗大ごみへ。プラスチック製はプラスチック資源へ。",
-  "noteEn": "Metal ones under 30 cm go to Small Metal Items; longer ones are Oversized Garbage. Plastic ones go to Plastic Resources.",
+  "noteEn": "Metal ones under 30 cm go out as “Small metal items”; longer ones are oversized garbage. Plastic ones go out as “Plastic resources.”",
   "see": null,
   "page": 32
  },
@@ -3440,7 +3440,7 @@
   ],
   "small": false,
   "noteJa": "モバイルバッテリーは電池類へ。",
-  "noteEn": "The City does not collect this. Mobile batteries go to Batteries.",
+  "noteEn": "The City does not collect this. Mobile batteries go out as “Batteries.”",
   "see": "not-collected.html",
   "page": 32
  },
@@ -3570,7 +3570,7 @@
   ],
   "small": false,
   "noteJa": "金属製のものは小さな金属類へ。",
-  "noteEn": "Metal ones go to Small Metal Items.",
+  "noteEn": "Metal ones go out as “Small metal items.”",
   "see": null,
   "page": 32
  },
@@ -3596,7 +3596,7 @@
   ],
   "small": false,
   "noteJa": "筆記用具で書いた紙や、わら半紙も古紙へ。",
-  "noteEn": "Paper written on with pens and newsprint-type paper also go to Paper.",
+  "noteEn": "Paper written on with pens and newsprint-type paper also go out as “Paper.”",
   "see": null,
   "page": 32
  },
@@ -3609,7 +3609,7 @@
   ],
   "small": false,
   "noteJa": "ビニール製の表紙のものは燃やすごみへ。",
-  "noteEn": "Ones with a vinyl cover go to Burnable Garbage.",
+  "noteEn": "Ones with a vinyl cover go out as “Burnable garbage.”",
   "see": null,
   "page": 32
  },
@@ -3648,7 +3648,7 @@
   ],
   "small": true,
   "noteJa": "金属製のものは小さな金属類へ。",
-  "noteEn": "Metal ones go to Small Metal Items.",
+  "noteEn": "Metal ones go out as “Small metal items.”",
   "see": null,
   "page": 32
  },
@@ -3661,7 +3661,7 @@
   ],
   "small": false,
   "noteJa": "インデックス（紙）は、古紙へ。",
-  "noteEn": "The paper insert goes to Paper.",
+  "noteEn": "The paper insert goes out as “Paper.”",
   "see": null,
   "page": 32
  },
@@ -3674,7 +3674,7 @@
   ],
   "small": true,
   "noteJa": "30cm未満のものは小さな金属類、プラスチック製で50cm未満のものは燃やすごみへ。",
-  "noteEn": "Items under 30 cm go to Small Metal Items. Plastic ones under 50 cm go to Burnable Garbage.",
+  "noteEn": "Items under 30 cm go out as “Small metal items.” Plastic ones under 50 cm go out as “Burnable garbage.”",
   "see": null,
   "page": 32
  },
@@ -3687,7 +3687,7 @@
   ],
   "small": false,
   "noteJa": "布などの紙以外の表紙は外して燃やすごみへ。",
-  "noteEn": "Remove covers made of cloth or other non-paper material and put them in Burnable Garbage.",
+  "noteEn": "Remove covers made of cloth or other non-paper material and put them out as “Burnable garbage.”",
   "see": null,
   "page": 32
  },
@@ -3700,7 +3700,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage. Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage. Metal ones under 30 cm go out as “Small metal items”; 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 32
  },
@@ -3713,7 +3713,7 @@
   ],
   "small": true,
   "noteJa": "50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 32
  },
@@ -3726,7 +3726,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のフィルムは燃やすごみへ。",
-  "noteEn": "Film 50 cm or longer goes to Burnable Garbage.",
+  "noteEn": "Film 50 cm or longer goes out as “Burnable garbage.”",
   "see": null,
   "page": 33
  },
@@ -3752,7 +3752,7 @@
   ],
   "small": false,
   "noteJa": "プラスチック製のものはプラスチック資源へ。",
-  "noteEn": "Plastic ones go to Plastic Resources.",
+  "noteEn": "Plastic ones go out as “Plastic resources.”",
   "see": null,
   "page": 33
  },
@@ -3804,7 +3804,7 @@
   ],
   "small": false,
   "noteJa": "畳んで50cm未満のものは燃やすごみへ。",
-  "noteEn": "If it is under 50 cm when folded, put it out as Burnable Garbage.",
+  "noteEn": "If it is under 50 cm when folded, put it out as “Burnable garbage.”",
   "see": null,
   "page": 33
  },
@@ -3830,7 +3830,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 33
  },
@@ -3843,7 +3843,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上（取っ手は除く）のものは粗大ごみへ。",
-  "noteEn": "Items 30 cm or longer (not counting the handle) are Oversized Garbage.",
+  "noteEn": "Items 30 cm or longer (not counting the handle) are oversized garbage.",
   "see": null,
   "page": 33
  },
@@ -3882,7 +3882,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。木製のものは燃やすごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage. Wooden ones go to Burnable Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage. Wooden ones go out as “Burnable garbage.”",
   "see": null,
   "page": 33
  },
@@ -3934,7 +3934,7 @@
   ],
   "small": false,
   "noteJa": "金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみへ。",
-  "noteEn": "Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Metal ones under 30 cm go out as “Small metal items”; 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 33
  },
@@ -3947,7 +3947,7 @@
   ],
   "small": false,
   "noteJa": "中身は使い切って、穴はあけない。包装フィルムとキャップはプラスチック資源へ。",
-  "noteEn": "Use up the contents. Do not make holes. The packaging film and cap go to Plastic Resources.",
+  "noteEn": "Use up the contents. Do not make holes. The packaging film and cap go out as “Plastic resources.”",
   "see": null,
   "page": 33
  },
@@ -4025,7 +4025,7 @@
   ],
   "small": false,
   "noteJa": "バックル等金属部分は小さな金属類へ。",
-  "noteEn": "Buckles and other metal parts go to Small Metal Items.",
+  "noteEn": "Buckles and other metal parts go out as “Small metal items.”",
   "see": null,
   "page": 33
  },
@@ -4064,7 +4064,7 @@
   ],
   "small": false,
   "noteJa": "中身は使い切るか、紙や布に染み込ませて燃やすごみへ。30cm以上のものは粗大ごみへ。",
-  "noteEn": "Use up the paint, or soak it into paper or cloth and put that in Burnable Garbage. Items 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Use up the paint, or soak it into paper or cloth and put that out as “Burnable garbage.” Items 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 33
  },
@@ -4090,7 +4090,7 @@
   ],
   "small": false,
   "noteJa": "プラマークを確認。紙製のものは燃やすごみへ。",
-  "noteEn": "Check for the プラ (pura) mark. Paper ones go to Burnable Garbage.",
+  "noteEn": "Check for the プラ (pura) mark. Paper ones go out as “Burnable garbage.”",
   "see": null,
   "page": 33
  },
@@ -4103,7 +4103,7 @@
   ],
   "small": false,
   "noteJa": "金属製のものは小さな金属類へ。",
-  "noteEn": "Metal ones go to Small Metal Items.",
+  "noteEn": "Metal ones go out as “Small metal items.”",
   "see": null,
   "page": 33
  },
@@ -4129,7 +4129,7 @@
   ],
   "small": false,
   "noteJa": "麦わら帽子や革製のものは燃やすごみへ。",
-  "noteEn": "Straw or leather hats go to Burnable Garbage.",
+  "noteEn": "Straw or leather hats go out as “Burnable garbage.”",
   "see": null,
   "page": 33
  },
@@ -4168,7 +4168,7 @@
   ],
   "small": false,
   "noteJa": "新聞紙等に包み、品名を表示する。柄を含めずに30cm以上のものは粗大ごみへ。セラミック製のものは、新聞紙等に包み、燃えないごみへ。",
-  "noteEn": "Wrap in newspaper and write the item name on it. Blades 30 cm or longer (not counting the handle) are Oversized Garbage. Ceramic knives: wrap in newspaper and put out as Non-burnable Garbage.",
+  "noteEn": "Wrap in newspaper and write the item name on it. Blades 30 cm or longer (not counting the handle) are oversized garbage. Ceramic knives: wrap in newspaper and put out as “Non-burnable garbage.”",
   "see": null,
   "page": 33
  },
@@ -4194,7 +4194,7 @@
   ],
   "small": false,
   "noteJa": "50cm以上のものは粗大ごみへ。金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage. Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage. Metal ones under 30 cm go out as “Small metal items”; 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 33
  },
@@ -4220,7 +4220,7 @@
   ],
   "small": false,
   "noteJa": "金属製のものは小さな金属類へ。",
-  "noteEn": "Metal ones go to Small Metal Items.",
+  "noteEn": "Metal ones go out as “Small metal items.”",
   "see": null,
   "page": 33
  },
@@ -4246,7 +4246,7 @@
   ],
   "small": false,
   "noteJa": "プラスチック製のものは燃やすごみへ。",
-  "noteEn": "Plastic ones go to Burnable Garbage.",
+  "noteEn": "Plastic ones go out as “Burnable garbage.”",
   "see": null,
   "page": 33
  },
@@ -4259,7 +4259,7 @@
   ],
   "small": false,
   "noteJa": "ガラス製のものは燃えないごみへ。金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみへ。プラスチック製のものはプラスチック資源へ。",
-  "noteEn": "Glass ones go to Non-burnable Garbage. Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage. Plastic ones go to Plastic Resources.",
+  "noteEn": "Glass ones go out as “Non-burnable garbage.” Metal ones under 30 cm go out as “Small metal items”; 30 cm or longer are oversized garbage. Plastic ones go out as “Plastic resources.”",
   "see": null,
   "page": 33
  },
@@ -4272,7 +4272,7 @@
   ],
   "small": false,
   "noteJa": "30cm未満のものは小さな金属類へ。ガラス製のふたは燃えないごみへ。",
-  "noteEn": "Items under 30 cm go to Small Metal Items. Glass lids go to Non-burnable Garbage.",
+  "noteEn": "Items under 30 cm go out as “Small metal items.” Glass lids go out as “Non-burnable garbage.”",
   "see": null,
   "page": 33
  },
@@ -4298,7 +4298,7 @@
   ],
   "small": false,
   "noteJa": "中身を空にして、「廃棄します」「ごみです」等明示する。50cm以上のものは粗大ごみへ。",
-  "noteEn": "Empty it and mark it \"to be thrown away\" (廃棄します) or similar. Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Empty it and mark it \"to be thrown away\" (廃棄します) or similar. Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 33
  },
@@ -4311,7 +4311,7 @@
   ],
   "small": false,
   "noteJa": "「廃棄します」「ごみです」等明示する。50cm以上のものは粗大ごみへ。",
-  "noteEn": "Mark it \"to be thrown away\" (廃棄します) or similar. Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Mark it \"to be thrown away\" (廃棄します) or similar. Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 33
  },
@@ -4376,7 +4376,7 @@
   ],
   "small": true,
   "noteJa": "50cm未満のものは燃やすごみへ。",
-  "noteEn": "Items under 50 cm go to Burnable Garbage.",
+  "noteEn": "Items under 50 cm go out as “Burnable garbage.”",
   "see": null,
   "page": 33
  },
@@ -4389,7 +4389,7 @@
   ],
   "small": false,
   "noteJa": "まな板シート（薄いもの）はプラスチック資源へ。",
-  "noteEn": "Thin cutting board sheets go to Plastic Resources.",
+  "noteEn": "Thin cutting board sheets go out as “Plastic resources.”",
   "see": null,
   "page": 33
  },
@@ -4415,7 +4415,7 @@
   ],
   "small": false,
   "noteJa": "ガラス製の容器は燃えないごみへ。刃の部分は小さな金属類へ。",
-  "noteEn": "Glass jars go to Non-burnable Garbage. The blade section goes to Small Metal Items.",
+  "noteEn": "Glass jars go out as “Non-burnable garbage.” The blade section goes out as “Small metal items.”",
   "see": null,
   "page": 33
  },
@@ -4428,7 +4428,7 @@
   ],
   "small": false,
   "noteJa": "50cm未満のものは燃やすごみへ。",
-  "noteEn": "Items under 50 cm go to Burnable Garbage.",
+  "noteEn": "Items under 50 cm go out as “Burnable garbage.”",
   "see": null,
   "page": 34
  },
@@ -4441,7 +4441,7 @@
   ],
   "small": false,
   "noteJa": "金属部分は小さな金属類へ。",
-  "noteEn": "Metal parts go to Small Metal Items.",
+  "noteEn": "Metal parts go out as “Small metal items.”",
   "see": null,
   "page": 34
  },
@@ -4454,7 +4454,7 @@
   ],
   "small": false,
   "noteJa": "プラスチック製のものは、プラスチック資源へ。",
-  "noteEn": "Plastic ones go to Plastic Resources.",
+  "noteEn": "Plastic ones go out as “Plastic resources.”",
   "see": null,
   "page": 34
  },
@@ -4480,7 +4480,7 @@
   ],
   "small": false,
   "noteJa": "ガラス製のものは、燃えないごみへ。",
-  "noteEn": "Glass ones go to Non-burnable Garbage.",
+  "noteEn": "Glass ones go out as “Non-burnable garbage.”",
   "see": null,
   "page": 34
  },
@@ -4545,7 +4545,7 @@
   ],
   "small": false,
   "noteJa": "30cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 34
  },
@@ -4597,7 +4597,7 @@
   ],
   "small": false,
   "noteJa": "銀紙製のものは燃やすごみへ。",
-  "noteEn": "Foil ones go to Burnable Garbage.",
+  "noteEn": "Foil ones go out as “Burnable garbage.”",
   "see": null,
   "page": 34
  },
@@ -4610,7 +4610,7 @@
   ],
   "small": false,
   "noteJa": "ガラス製のものは缶・びん・ペットボトル、紙製のものは燃やすごみへ。",
-  "noteEn": "Glass ones go to Cans, Bottles & PET Bottles. Paper ones go to Burnable Garbage.",
+  "noteEn": "Glass ones go out as “Cans, bottles & PET bottles.” Paper ones go out as “Burnable garbage.”",
   "see": null,
   "page": 34
  },
@@ -4636,7 +4636,7 @@
   ],
   "small": true,
   "noteJa": "50cm以上のものは粗大ごみへ。金属製で30cm未満のものは小さな金属類、30cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage. Metal ones under 30 cm go to Small Metal Items; 30 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage. Metal ones under 30 cm go out as “Small metal items”; 30 cm or longer are oversized garbage.",
   "see": null,
   "page": 34
  },
@@ -4727,7 +4727,7 @@
   ],
   "small": false,
   "noteJa": "汚れ等を落としてから。ゴム・ビニール製のものは燃やすごみへ。",
-  "noteEn": "Wipe off dirt first. Rubber or vinyl ones go to Burnable Garbage.",
+  "noteEn": "Wipe off dirt first. Rubber or vinyl ones go out as “Burnable garbage.”",
   "see": null,
   "page": 34
  },
@@ -4753,7 +4753,7 @@
   ],
   "small": false,
   "noteJa": "紙製のジャケットは古紙へ。",
-  "noteEn": "Paper sleeves go to Paper.",
+  "noteEn": "Paper sleeves go out as “Paper.”",
   "see": null,
   "page": 34
  },
@@ -4792,7 +4792,7 @@
   ],
   "small": false,
   "noteJa": "中身を使い切って。紙製の外箱は折りたたんで古紙へ。",
-  "noteEn": "Use up the contents first. Fold the paper outer box and put it in Paper.",
+  "noteEn": "Use up the contents first. Fold the paper outer box and put it out as “Paper.”",
   "see": null,
   "page": 34
  },
@@ -4831,7 +4831,7 @@
   ],
   "small": true,
   "noteJa": "50cm以上のものは粗大ごみへ。",
-  "noteEn": "Items 50 cm or longer are Oversized Garbage.",
+  "noteEn": "Items 50 cm or longer are oversized garbage.",
   "see": null,
   "page": 34
  },

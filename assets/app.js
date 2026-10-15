@@ -54,16 +54,16 @@
   if (!items || !input || !list) return;
 
   var CATS = {
-    plastic:      { ja: 'プラスチック資源', en: 'Plastic Resources', page: 'plastic.html' },
-    cans:         { ja: '缶・びん・ペットボトル', en: 'Cans, Bottles & PET Bottles', page: 'cans-bottles.html' },
-    metal:        { ja: '小さな金属類', en: 'Small Metal Items', page: 'small-metals.html' },
+    plastic:      { ja: 'プラスチック資源', en: 'Plastic resources', page: 'plastic.html' },
+    cans:         { ja: '缶・びん・ペットボトル', en: 'Cans, bottles & PET bottles', page: 'cans-bottles.html' },
+    metal:        { ja: '小さな金属類', en: 'Small metal items', page: 'small-metals.html' },
     paper:        { ja: '古紙', en: 'Paper', page: 'paper-cloth.html' },
     cloth:        { ja: '古布', en: 'Clothes', page: 'paper-cloth.html' },
-    burnable:     { ja: '燃やすごみ', en: 'Burnable Garbage', page: 'burnable.html' },
-    nonburnable:  { ja: '燃えないごみ', en: 'Non-burnable Garbage', page: 'non-burnable.html' },
-    spray:        { ja: 'スプレー缶', en: 'Spray Cans', page: 'non-burnable.html#spray' },
+    burnable:     { ja: '燃やすごみ', en: 'Burnable garbage', page: 'burnable.html' },
+    nonburnable:  { ja: '燃えないごみ', en: 'Non-burnable garbage', page: 'non-burnable.html' },
+    spray:        { ja: 'スプレー缶', en: 'Spray cans', page: 'non-burnable.html#spray' },
     battery:      { ja: '電池類', en: 'Batteries', page: 'non-burnable.html#battery' },
-    oversized:    { ja: '粗大ごみ', en: 'Oversized Garbage', page: 'oversized.html' },
+    oversized:    { ja: '粗大ごみ', en: 'Oversized garbage', page: 'oversized.html' },
     notcollected: { ja: '市では収集できない', en: 'Not collected by the City', page: 'not-collected.html' }
   };
 
