@@ -79,8 +79,22 @@
   }
   items.forEach(function (it) {
     it._ja = norm(it.ja); it._en = norm(it.en);
-    it._note = norm(it.noteJa + ' ' + it.noteEn);
+    it._note = norm([it.noteJa, it.noteEn, it.alertJa || '', it.alertEn || '']
+      .concat(it.condJa || [], it.condEn || []).join(' '));
+    // 第8版：検索用の読み（画面には出さない。例：イヤフォン、AirPods）
+    it._keys = norm((it.keys || []).join(' '));
   });
+
+  /* 第8版：目立つ枠（例：「まず、かかりつけの医院へ相談」）と、出すときの条件の箇条書き */
+  function alertHtml(o) {
+    return o.alertJa ? '<p class="must-box"><span lang="ja">' + esc(o.alertJa) + '</span><span lang="en">' + esc(o.alertEn) + '</span></p>' : '';
+  }
+  function condHtml(o) {
+    if (!o.condJa || !o.condJa.length) return '';
+    return '<ul class="cond-list">' + o.condJa.map(function (c, i) {
+      return '<li><span lang="ja">' + esc(c) + '</span><span lang="en">' + esc(o.condEn[i]) + '</span></li>';
+    }).join('') + '</ul>';
+  }
 
   var limit = parseInt(list.getAttribute('data-limit') || '0', 10);
   var moreLink = document.getElementById('see-all');
@@ -110,7 +124,8 @@
       : '<span class="hit-ico hit-dot" aria-hidden="true"></span>';
     return '<li class="hit c-' + main + '"><div class="hit-top">' + ico + '<span class="hit-name"><span lang="ja">' + esc(it.ja) +
       '</span><span lang="en">' + esc(it.en) + '</span></span><span class="hit-alt jp" lang="ja">' + esc(it.ja) +
-      '</span></div><div class="hit-top" style="margin-top:6px">' + tags + '</div>' + note +
+      '</span></div>' + (it.alertJa ? '<div class="hit-must">' + alertHtml(it) + condHtml(it) + '</div>' : '') +
+      '<div class="hit-top" style="margin-top:6px">' + tags + '</div>' + note +
       (more ? '<p class="hit-note">' + more + '</p>' : '') + '</li>';
   }
 
@@ -126,6 +141,7 @@
         var s;
         if (it._ja.indexOf(t) === 0 || it._en.indexOf(t) === 0) s = 0;
         else if (it._ja.indexOf(t) > -1 || it._en.indexOf(t) > -1) s = 1;
+        else if (it._keys.indexOf(t) > -1) s = 1.5;
         else if (it._note.indexOf(t) > -1) s = 2;
         else { ok = false; return; }
         if (s < best || best === 9) best = Math.min(best, s);
@@ -142,14 +158,18 @@
      出すのは「言葉と完全に同じ」「4文字以上で言葉の頭と同じ」「4文字以上の言葉が検索語に含まれる」ときだけ。 */
   var answers = window.ANSWERS || [];
   function compact(s) { return norm(s).replace(/[\s\-‐－・･_]/g, ''); }
-  answers.forEach(function (a) { a._keys = a.keys.map(compact); });
+  answers.forEach(function (a) {
+    a._keys = a.keys.map(compact);
+    // 第8版：短くて広い言葉（例：「バッテリー」）は、検索語と完全に同じときだけ出す
+    a._exact = (a.exactKeys || []).map(compact);
+  });
 
   function findAnswers(q) {
     var c = compact(q);
     if (!c) return [];
     var out = [];
     answers.forEach(function (a) {
-      var best = null;
+      var best = a._exact.indexOf(c) > -1 ? 0 : null;
       a._keys.forEach(function (k) {
         var s = null;
         if (c === k) s = 0;
@@ -173,7 +193,8 @@
       '<p class="answer-kicker"><span lang="ja">よくある質問への答え</span><span lang="en">Quick answers</span></p>' +
       '<p class="answer-title"><span lang="ja">' + esc(a.titleJa) + '</span><span lang="en">' + esc(a.titleEn) + '</span>' +
       '<span class="hit-alt jp" lang="ja">' + esc(a.titleJa) + '</span></p></div></div>' +
-      '<p class="answer-body"><span lang="ja">' + esc(a.answerJa) + '</span><span lang="en">' + esc(a.answerEn) + '</span></p>' +
+      alertHtml(a) +
+      '<p class="answer-body"><span lang="ja">' + esc(a.answerJa) + '</span><span lang="en">' + esc(a.answerEn) + '</span></p>' + condHtml(a) +
       '<p class="answer-foot"><a class="tag c-' + a.cat + '" href="' + k.page + '"><span lang="ja">' + esc(k.ja) +
       '</span><span lang="en">' + esc(k.en) + '</span></a> <span class="answer-src"><span lang="ja">出典：横浜市『資源とごみの分け方・出し方』' + pj +
       '</span><span lang="en">Source: City of Yokohama, &lsquo;Separation and Disposal of Resources and Garbage&rsquo;, p' + (a.pages.length > 1 ? 'p' : '') + '. ' + pe + '</span></span> ' +

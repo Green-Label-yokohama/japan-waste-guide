@@ -137,10 +137,25 @@
    "burnable"
   ],
   "small": true,
-  "noteJa": "布製・プラスチック製の充電型ケースも燃やすごみへ。",
-  "noteEn": "Charging cases made of fabric or plastic also go out as “Burnable garbage.”",
+  "noteJa": "布製・プラスチック製の充電型ケースも燃やすごみへ。バッテリーを取り外せないものは、他の燃やすごみとは別の袋に入れて燃やすごみの日に出す。",
+  "noteEn": "Charging cases made of fabric or plastic also go out as “Burnable garbage.” If the battery can’t be removed, put the earphones in a bag separate from your other burnable garbage, and put it out on burnable garbage day.",
   "see": null,
-  "page": 27
+  "page": 27,
+  "keys": [
+   "イヤホン",
+   "イヤフォン",
+   "イヤホンケース",
+   "イヤフォンケース",
+   "充電ケース",
+   "AirPods",
+   "ワイヤレスイヤホン",
+   "電池",
+   "バッテリー",
+   "wireless earphones",
+   "earbuds",
+   "charging case",
+   "battery"
+  ]
  },
  {
   "id": 12,
@@ -2672,10 +2687,20 @@
    "burnable"
   ],
   "small": false,
-  "noteJa": "注射器・針はかかりつけの医院へ。注射針は透明な硬い容器に入れて。",
-  "noteEn": "Take them to your regular clinic. Put needles in a clear, hard container.",
+  "noteJa": "",
+  "noteEn": "",
   "see": null,
-  "page": 31
+  "page": 31,
+  "alertJa": "まず、かかりつけの医院へ相談してください。",
+  "alertEn": "First, talk to your regular clinic.",
+  "condJa": [
+   "注射針は、透明な硬い容器に入れる。",
+   "缶・びん・ペットボトルやプラスチック資源には、絶対に入れない（針刺しの危険）。"
+  ],
+  "condEn": [
+   "Put needles in a clear, hard container.",
+   "Never put them in with “Cans, bottles & PET bottles” or “Plastic resources” (risk of needle-stick injuries)."
+  ]
  },
  {
   "id": 207,
@@ -3439,8 +3464,8 @@
    "notcollected"
   ],
   "small": false,
-  "noteJa": "モバイルバッテリーは電池類へ。",
-  "noteEn": "The City does not collect this. Mobile batteries go out as “Batteries.”",
+  "noteJa": "市では収集できません。購入先に相談。モバイルバッテリー（小型充電式電池）は電池類へ。",
+  "noteEn": "The City does not collect this. Ask the store where you bought it. Mobile batteries (small rechargeable batteries) go out as “Batteries.”",
   "see": "not-collected.html",
   "page": 32
  },

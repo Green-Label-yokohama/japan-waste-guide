@@ -419,7 +419,7 @@ h2.part{font-size:1.9rem;margin-top:56px;padding-top:18px;border-top:3px solid v
   .scene-ill{width:64px;height:64px}
 }
 
-/* ---------- 8区分の早見表 ---------- */
+/* ---------- 8つの案内カテゴリーの早見表 ---------- */
 .chart{width:100%;border-collapse:separate;border-spacing:0 6px;font-size:.95rem;line-height:1.55}
 .chart thead th{text-align:left;font-size:.85rem;color:var(--muted);font-weight:700;padding:0 12px}
 .chart tbody th,.chart tbody td{background:#fff;padding:12px;vertical-align:top;text-align:left;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -584,3 +584,33 @@ a.doc:hover{border-color:var(--ink)}
 .lang-strip a:hover{border-color:var(--ink)}
 .ls-t{display:block;font-weight:700;text-decoration:underline;text-underline-offset:4px}
 .ls-l{display:flex;flex-wrap:wrap;gap:2px 14px;font-size:.95rem;color:var(--muted);margin-top:2px}
+
+/* ==========================================================
+   第8版：冒頭の表示（全ページ）・最終確認日・目立つ枠
+   ========================================================== */
+/* 冒頭の表示：色の帯の下、ヘッダーの上の細い帯 */
+.site-note{background:#E9ECF3;border-bottom:1px solid var(--line);color:var(--ink)}
+.site-note p{margin:0 auto;padding-top:4px;padding-bottom:4px;font-size:.84rem;line-height:1.5;max-width:1040px;overflow-wrap:anywhere}
+/* 最終確認日：本文の最後、出典欄のすぐ上 */
+.checked-row{border-top:1px solid var(--line);background:var(--paper)}
+.checked-row p{margin:0 auto;padding-top:10px;padding-bottom:10px;font-size:.9rem;color:var(--muted);max-width:1040px}
+/* 目立つ枠（例：注射器・注射針「まず、かかりつけの医院へ相談」） */
+.must-box,.must{
+  display:block;background:#FFF1F0;border:2px solid var(--burnable);border-left-width:8px;border-radius:8px;
+  padding:6px 12px;margin:8px 0 4px;font-weight:700;line-height:1.6;max-width:none;color:var(--ink)
+}
+.must-box::before,.must::before{content:"！ ";color:var(--burnable);font-weight:900}
+.cond-list{margin:4px 0 6px;padding-left:1.3em;font-size:.95rem;line-height:1.65}
+.cond-list li{margin:2px 0}
+.hit .hit-must{padding-left:46px}
+@media (max-width:420px){.hit .hit-must{padding-left:0}}
+.youbi-link{margin:6px 0 0;max-width:none}
+.youbi-link a,a.youbi{font-weight:700}
+@media print{
+  .site-note p{font-size:8pt;padding:0 0 2px}
+  .checked-row p{font-size:8pt;padding:2px 0}
+}
+.site-note .sn{display:inline-block}
+@media (max-width:360px){.site-note p{font-size:.78rem}}
+.site-note [lang="en"] .sn:first-child{margin-right:.3em}
+@media (max-width:360px){.site-note p{font-size:.75rem;padding-left:16px;padding-right:16px}}
